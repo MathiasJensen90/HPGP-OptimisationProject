@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 221450ac438c1924d8b7bb5f0e2666c0
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: e3533e8c0ad6a59408cc9e5e9fc537de
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 2f88322f71837de48897acbd0865e2b3
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 58406eb6ac1a73d4d9fc788c6440b64e
+  - enabled: 1
+    path: Assets/Scenes/DeathScoreScreen.unity
+    guid: 05ec60cbb3c07614eba5e6607f06bd0f
+  - enabled: 1
+    path: Assets/Scenes/YouWinScreen.unity
+    guid: 0e8e099790321b3499a6db585c74656e
+  m_configObjects: {}

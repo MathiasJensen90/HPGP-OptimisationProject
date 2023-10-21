@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92682010f7f14810b75156686764d592, type: 3}
+  m_Name: Player Settings
+  m_EditorClassIdentifier: 
+  ShootKey: 323
+  ShotCooldown: 1.5
+  ProjectilePrefab: {fileID: 30059858797694837, guid: 72bd0421dd6818b4193019b66adcf272,
+    type: 3}
+  ShotSound: {fileID: 8300000, guid: 92e2541a976230d42833a7af08a9c9e8, type: 3}
+  LightningPropagationRadius: 10
+  ImpactFXPrefab: {fileID: 8493397869530387919, guid: cda87801b951cb046880a860e3adaa25,
+    type: 3}
+  LightningPropagator: {fileID: 4084079719821203023, guid: 10b025bc8f264cc43b605517cc151c84,
+    type: 3}

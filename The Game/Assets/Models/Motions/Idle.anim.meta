@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:The Game/Assets/PostProcessing/ImpactProfile.asset.meta
+guid: 2414772dbc349ed409f3cfbb5b345d4b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+========
+guid: 90209f47def1c254d8267d57db7d0604
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+>>>>>>>> 71d40e46f3ed59e5e1c59450dedfc423fca118ad:The Game/Assets/Models/Motions/Idle.anim.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

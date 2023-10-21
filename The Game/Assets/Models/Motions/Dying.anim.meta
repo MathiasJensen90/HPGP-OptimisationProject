@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:The Game/Assets/PostProcessing/CustomPostProcessData.asset.meta
+guid: 2d29f8adee44f0348a0bd7157a91bfd1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+========
+guid: fe2097902de825648a5e8814703b6af5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+>>>>>>>> 71d40e46f3ed59e5e1c59450dedfc423fca118ad:The Game/Assets/Models/Motions/Dying.anim.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

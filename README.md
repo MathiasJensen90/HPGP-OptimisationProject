@@ -1,2 +1,3 @@
-# HPGP-OptimisationProject
-Repository used for illustrating how to optimize and profile a game
+# Nordic Game Jam 2023
+
+Made with Unity LTS Release 2021.3.22f1.
