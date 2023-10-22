@@ -14,13 +14,13 @@ public class Projectile : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * InitialImpulse);
-        Destroy(gameObject, 5f);
+        //Destroy(gameObject, 5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -38,6 +38,6 @@ public class Projectile : MonoBehaviour
             enemy.Die();
         }
         
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }
