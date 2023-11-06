@@ -24,7 +24,6 @@ public class Lightning : MonoBehaviour
             var target = Target.transform.position - transform.position + Vector3.up * 0.5f;
             LineRenderer.SetPositions(new []{ Vector3.zero, target});
         }
-
         for (int i = 0; i < 1000; i++)
         {
             var firstString = "hello";

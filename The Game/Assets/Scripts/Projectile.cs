@@ -14,7 +14,6 @@ public class Projectile : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * InitialImpulse);
-        //Destroy(gameObject, 5f);
     }
 
     // Update is called once per frame
@@ -37,7 +36,5 @@ public class Projectile : MonoBehaviour
             propagator.StartPropagation(enemy);
             enemy.Die();
         }
-        
-        //Destroy(gameObject);
     }
 }
