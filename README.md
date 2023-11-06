@@ -1,3 +1,3 @@
-# Nordic Game Jam 2023
+Testing Project for ITU Students
 
 
