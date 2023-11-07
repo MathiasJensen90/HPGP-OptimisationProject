@@ -55,7 +55,10 @@ public class PlayerController : MonoBehaviour
             cooldownVisualEffect.SetActive(false);
             showCooldownVisual = false;
 
-            DOTween.Sequence().AppendInterval(0.1f).AppendCallback(() => { Instantiate(PlayerSettings.ProjectilePrefab, ProjectileSpawner.position, transform.rotation); });
+            DOTween.Sequence().AppendInterval(0.1f).AppendCallback(() =>
+            {
+                Instantiate(PlayerSettings.ProjectilePrefab, ProjectileSpawner.position, transform.rotation);
+            });
             animator.SetTrigger("Shoot");
         }
     }

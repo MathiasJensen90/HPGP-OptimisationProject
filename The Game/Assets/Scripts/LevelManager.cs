@@ -16,6 +16,7 @@ public class LevelManager : MonoBehaviour
     private float transitionCenter = 17.5f;
     private float transitionRight = 40;
     private float transitionTime = 4f;
+    private int countOfElectricution; 
 
     private AudioSource audSource; 
 
@@ -31,6 +32,20 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
+        var currentEnemies = FindObjectsOfType<Enemy>();
+        var enmeySpawners = FindObjectsOfType<EnemySpawner>();
+        foreach (var enemy in currentEnemies)
+        {
+            if (enemy.isElectrocuted) countOfElectricution++;
+            foreach (var enemySpawner in enmeySpawners)
+            {
+                if (enemySpawner.SpawnCount >= 2)
+                {
+                    var findEnemiesAgain = FindObjectsOfType<Enemy>();
+                }
+            }
+        }
+        
         if (IsLevelComplete() && !_loadingScene)
         {
             audSource.Play();
