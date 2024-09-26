@@ -28,7 +28,7 @@ public class Lightning : MonoBehaviour
         {
             var firstString = "hello";
             var secondString = "Goodbye";
-            String text = "";
+            String text = "Maybe";
             text += firstString + secondString;
         }
     }
