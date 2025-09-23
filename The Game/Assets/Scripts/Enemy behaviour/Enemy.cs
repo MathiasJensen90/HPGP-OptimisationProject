@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,7 +8,6 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _pointValue = 1;
     public float Velocity = 4f;
-
     public Collider coll;
 
     private float timeBeforeKillingPlayer = 1f;
@@ -30,6 +30,7 @@ public class Enemy : MonoBehaviour
     void Awake()
     {
         transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+       
     }
 
     void Start()
