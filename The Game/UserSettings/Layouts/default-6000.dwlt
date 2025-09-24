@@ -14,17 +14,92 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 7.2000003
-    y: 50.4
-    width: 1521.6
-    height: 758.4
+    x: 1281.3334
+    y: 30
+    width: 1536
+    height: 816
+  m_ShowMode: 0
+  m_Title: Profile Analyzer
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 1090, y: 506}
+  m_MaxSize: {x: 4000, y: 4026}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 8
+    y: 51.2
+    width: 1520
+    height: 756.8
   m_ShowMode: 4
   m_Title: Scene
-  m_RootView: {fileID: 2}
+  m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProfileAnalyzerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1536
+    height: 816
+  m_MinSize: {x: 1090, y: 506}
+  m_MaxSize: {x: 4000, y: 4026}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1536
+    height: 816
+  m_MinSize: {x: 1090, y: 506}
+  m_MaxSize: {x: 4000, y: 4026}
+  vertical: 0
+  controlID: 7275
+  draggingID: 0
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,22 +112,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 8}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1521.6
-    height: 758.4
+    width: 1520
+    height: 756.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 36
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &3
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,12 +144,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1521.6
+    width: 1520
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,12 +165,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 738.4
-    width: 1521.6
+    y: 736.8
+    width: 1520
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &5
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,20 +183,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 11}
+  - {fileID: 9}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 36
-    width: 1521.6
-    height: 702.4
+    width: 1520
+    height: 700.8
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 7157
   draggingID: 0
---- !u!114 &6
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,20 +209,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
   - {fileID: 10}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 822.4
-    height: 702.4
+    width: 954.4
+    height: 700.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 56
+  controlID: 7158
   draggingID: 0
---- !u!114 &7
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,20 +235,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 9}
+  - {fileID: 11}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 822.4
-    height: 460
+    width: 954.4
+    height: 393.6
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 57
+  controlID: 7159
   draggingID: 0
---- !u!114 &8
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,16 +265,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 220.8
-    height: 460
+    width: 256.8
+    height: 393.6
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,21 +289,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 220.8
+    x: 256.8
     y: 0
-    width: 601.60004
-    height: 460
+    width: 697.60004
+    height: 393.6
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 14}
-  - {fileID: 13}
-  - {fileID: 15}
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 3
---- !u!114 &10
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,18 +319,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 460
-    width: 822.4
-    height: 242.40002
+    y: 393.6
+    width: 954.4
+    height: 307.19998
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
+  - {fileID: 21}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &11
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,145 +345,3110 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 822.4
+    x: 954.4
     y: 0
-    width: 699.19995
-    height: 702.4
+    width: 565.6
+    height: 700.8
   m_MinSize: {x: 276, y: 126}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 12}
-  m_Selected: 1
+  - {fileID: 23}
+  m_Selected: 0
   m_LastSelected: 0
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Inspector\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 823.4
-    y: 24
-    width: 698.19995
-    height: 676.4
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 211
-    m_ControlHash: 1412526313
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd0276e3a65ecfd43904ccfe7027d92d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Bezier Ligthing
-    m_Image: {fileID: 2800000, guid: dbf0a247eda3c834b86a04d35558ba9f, type: 3}
-    m_Tooltip: 
-    m_TextWithWhitespace: "UnityEditor.VFX.UI.VFXViewWindow\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 193.6
-    y: 72
-    width: 742.4
-    height: 407.8
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  m_DisplayedResource: {fileID: 8926484042661614527, guid: 91822a30bd5f2114fa53b3d7e163d7bd,
-    type: 2}
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd0276e3a65ecfd43904ccfe7027d92d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Sparks
-    m_Image: {fileID: 2800000, guid: dbf0a247eda3c834b86a04d35558ba9f, type: 3}
-    m_Tooltip: 
-    m_TextWithWhitespace: "UnityEditor.VFX.UI.VFXViewWindow\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 193.6
-    y: 72
-    width: 742.4
-    height: 447
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  m_DisplayedResource: {fileID: 8926484042661614527, guid: 52f1139c8657782418b6f5168a5adbf6,
-    type: 2}
 --- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc59854f72ef4a1fb6dbb8d0cd6aea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 1090, y: 480}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Profile Analyzer
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Profile Analyzer\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1281.3334
+    y: 30
+    width: 1536
+    height: 790
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_DepthSliceUI:
+    m_DepthFilter: -1
+    m_DepthFilter1: -1
+    m_DepthFilter2: -1
+    m_DepthFilterAuto: 1
+    m_MostCommonDepthDiff: 0
+  m_TimingOption: 0
+  m_ParentMarker: 
+  m_ThreadSelection:
+    groups: []
+    selection:
+    - 1:Main Thread
+  m_NameFilter: 
+  m_NameExclude: 
+  m_TopTenDisplay: 0
+  m_NameFilterOperation: 0
+  m_NameExcludeOperation: 1
+  m_removeMarkerOperation: 0
+  m_hideRemovedMarkers: 1
+  m_removeMarkerCustomRemoveMarker: 
+  m_ShowFilters: 1
+  m_ShowTopNMarkers: 1
+  m_ShowFrameSummary: 1
+  m_ShowThreadSummary: 0
+  m_ShowMarkerSummary: 1
+  m_ShowMarkerTable: 1
+  m_ProfileSingleView:
+    path: 
+    data:
+      FirstFrameIncomplete: 0
+      LastFrameIncomplete: 0
+    selectedIndices: 0000000000000000
+  m_ProfileLeftView:
+    path: C:/Users/mathi/Desktop/ITU DOD/Profiling Captures/capture bad.pdata
+    data:
+      FirstFrameIncomplete: 0
+      LastFrameIncomplete: 0
+    selectedIndices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c010000
+  m_ProfileRightView:
+    path: C:/Users/mathi/Desktop/ITU DOD/Profiling Captures/capture normal.pdata
+    data:
+      FirstFrameIncomplete: 0
+      LastFrameIncomplete: 0
+    selectedIndices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c010000
+  m_SelectedMarker:
+    id: 0
+    threadName: 
+    threadGroupName: 
+    name: PlayerLoop
+  m_Pairings:
+  - name: PlayerLoop
+    leftIndex: 0
+    rightIndex: 0
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal()
+      [Invoke]'
+    leftIndex: 1
+    rightIndex: 1
+  - name: Inl_UniversalRenderTotal
+    leftIndex: 2
+    rightIndex: 2
+  - name: Inl_RenderCameraStack
+    leftIndex: 3
+    rightIndex: 3
+  - name: RenderLoop.ScheduleDraw
+    leftIndex: 4
+    rightIndex: 4
+  - name: EditorLoop
+    leftIndex: 5
+    rightIndex: 14
+  - name: Inl_ScriptableRenderContext.Submit
+    leftIndex: 6
+    rightIndex: 5
+  - name: 'ScriptableRenderer.Execute: URP-Balanced-Renderer'
+    leftIndex: 7
+    rightIndex: 7
+  - name: RenderLoop.DrawSRPBatcher
+    leftIndex: 8
+    rightIndex: 10
+  - name: CullScriptable
+    leftIndex: 9
+    rightIndex: 9
+  - name: DrawOpaqueObjects
+    leftIndex: 10
+    rightIndex: 11
+  - name: SRPBatcher.Flush
+    leftIndex: 11
+    rightIndex: 13
+  - name: 'UniversalRenderPipeline.RenderSingleCameraInternal: Camera (1)'
+    leftIndex: 12
+    rightIndex: -1
+  - name: 'UniversalRenderPipeline.RenderSingleCameraInternal: Camera'
+    leftIndex: 13
+    rightIndex: 52
+  - name: 'UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera'
+    leftIndex: 14
+    rightIndex: 8
+  - name: Update.ScriptRunBehaviourUpdate
+    leftIndex: 15
+    rightIndex: 44
+  - name: BehaviourUpdate
+    leftIndex: 16
+    rightIndex: 45
+  - name: EndRenderQueueExtraction
+    leftIndex: 17
+    rightIndex: 18
+  - name: 'Assembly-CSharp.dll!::LevelManager.Update() [Invoke]'
+    leftIndex: 18
+    rightIndex: 231
+  - name: SceneCulling
+    leftIndex: 19
+    rightIndex: 12
+  - name: 'Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Camera'
+    leftIndex: 20
+    rightIndex: 24
+  - name: CullSendEvents
+    leftIndex: 21
+    rightIndex: 15
+  - name: 'Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Camera (1)'
+    leftIndex: 22
+    rightIndex: -1
+  - name: CullResults.CreateSharedRendererScene
+    leftIndex: 23
+    rightIndex: 19
+  - name: QueuePrepareIntegrateMainThreadObjects
+    leftIndex: 24
+    rightIndex: 22
+  - name: DepthPrepass
+    leftIndex: 25
+    rightIndex: 17
+  - name: 'Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera'
+    leftIndex: 26
+    rightIndex: 6
+  - name: afterCullingOutputReady.Invoke
+    leftIndex: 27
+    rightIndex: 20
+  - name: Terrain.Trees.OnWillRender
+    leftIndex: 28
+    rightIndex: 21
+  - name: DrawTransparentObjects
+    leftIndex: 29
+    rightIndex: 50
+  - name: WaitForJobGroupID
+    leftIndex: 30
+    rightIndex: 16
+  - name: SRPBRender.ApplyShader
+    leftIndex: 31
+    rightIndex: 28
+  - name: 'Inl_ScriptableRenderer.Execute: URP-Balanced-Renderer'
+    leftIndex: 32
+    rightIndex: 23
+  - name: LODTreeInstanceRenderer.UpdateWind
+    leftIndex: 33
+    rightIndex: 25
+  - name: FixedUpdate.PhysicsFixedUpdate
+    leftIndex: 34
+    rightIndex: 26
+  - name: MainLightShadow
+    leftIndex: 35
+    rightIndex: 36
+  - name: Shadows.ExecuteDrawShadows
+    leftIndex: 36
+    rightIndex: 37
+  - name: Shadows.ScheduleRenderJobs
+    leftIndex: 37
+    rightIndex: 38
+  - name: Physics.Simulate
+    leftIndex: 38
+    rightIndex: 29
+  - name: PxScene.simulate
+    leftIndex: 39
+    rightIndex: -1
+  - name: RenderLoop.CleanupNodeQueue
+    leftIndex: 40
+    rightIndex: 30
+  - name: DestroyCullResults
+    leftIndex: 41
+    rightIndex: 34
+  - name: LOD.ComputeLOD
+    leftIndex: 42
+    rightIndex: 27
+  - name: Inl_RenderPassBlock.MainRenderingTransparent
+    leftIndex: 43
+    rightIndex: 54
+  - name: Shadows.PrepareDrawShadows
+    leftIndex: 44
+    rightIndex: 46
+  - name: RenderLoop.Draw
+    leftIndex: 45
+    rightIndex: 57
+  - name: PostLateUpdate.VFXUpdate
+    leftIndex: 46
+    rightIndex: 32
+  - name: VFX.Update
+    leftIndex: 47
+    rightIndex: 33
+  - name: Inl_PostProcessPass
+    leftIndex: 48
+    rightIndex: 59
+  - name: Inl_Render PostProcessing Effects
+    leftIndex: 49
+    rightIndex: 63
+  - name: Shadows.DrawSRPBatcher
+    leftIndex: 50
+    rightIndex: 68
+  - name: Inl_ScriptableRenderer.SetupLights
+    leftIndex: 51
+    rightIndex: 85
+  - name: Inl_Setup Light Constants
+    leftIndex: 52
+    rightIndex: 90
+  - name: PrepareSceneCullingParameters
+    leftIndex: 53
+    rightIndex: 31
+  - name: VFX.ProcessCommandList
+    leftIndex: 54
+    rightIndex: 58
+  - name: Inl_RenderPassBlock.MainRenderingOpaque
+    leftIndex: 55
+    rightIndex: 49
+  - name: Inl_ScriptableRenderer.Setup
+    leftIndex: 56
+    rightIndex: 53
+  - name: StdRender.ApplyShader
+    leftIndex: 57
+    rightIndex: 87
+  - name: Inl_UberPostProcess
+    leftIndex: 58
+    rightIndex: 69
+  - name: ExecuteRenderQueueJob
+    leftIndex: 59
+    rightIndex: 104
+  - name: FindObjectsOfType
+    leftIndex: 60
+    rightIndex: -1
+  - name: Inl_Bloom
+    leftIndex: 61
+    rightIndex: 81
+  - name: Render PostProcessing Effects
+    leftIndex: 62
+    rightIndex: 118
+  - name: TerrainManager.CullAllTerrains
+    leftIndex: 63
+    rightIndex: 48
+  - name: Profiler.FlushCounters
+    leftIndex: 64
+    rightIndex: 35
+  - name: SRPBShadow.ApplyShader
+    leftIndex: 65
+    rightIndex: 82
+  - name: VFX.DefaultCommandBuffer
+    leftIndex: 66
+    rightIndex: 105
+  - name: Profiler.FlushMemoryCounters
+    leftIndex: 67
+    rightIndex: 40
+  - name: Inl_RenderPassBlock.BeforeRendering
+    leftIndex: 68
+    rightIndex: 91
+  - name: Inl_Setup Camera Parameters
+    leftIndex: 69
+    rightIndex: 70
+  - name: PostLateUpdate.UpdateAllSkinnedMeshes
+    leftIndex: 70
+    rightIndex: 39
+  - name: MotionVectors
+    leftIndex: 71
+    rightIndex: -1
+  - name: MeshSkinning.Update
+    leftIndex: 72
+    rightIndex: 41
+  - name: PreLateUpdate.DirectorUpdateAnimationBegin
+    leftIndex: 73
+    rightIndex: 47
+  - name: VisualEffect.Update
+    leftIndex: 74
+    rightIndex: 124
+  - name: Inl_UniversalRenderPipeline.InitializeRenderingData
+    leftIndex: 75
+    rightIndex: 67
+  - name: Director.ProcessFrame
+    leftIndex: 76
+    rightIndex: 42
+  - name: Animators.Update
+    leftIndex: 77
+    rightIndex: 43
+  - name: Inl_ColorGradingLutPass
+    leftIndex: 78
+    rightIndex: 111
+  - name: UberPostProcess
+    leftIndex: 79
+    rightIndex: 120
+  - name: Inl_MainLightShadowCasterPass
+    leftIndex: 80
+    rightIndex: 95
+  - name: Inl_UpdateVolumeFramework
+    leftIndex: 81
+    rightIndex: 64
+  - name: Inl_ScriptableRenderer.InternalStartRendering
+    leftIndex: 82
+    rightIndex: 71
+  - name: VFXBatch.Update
+    leftIndex: 83
+    rightIndex: 152
+  - name: ApplyPass.PrepareKeywords
+    leftIndex: 84
+    rightIndex: 125
+  - name: Inl_ColorGradingLUT
+    leftIndex: 85
+    rightIndex: 126
+  - name: Bloom
+    leftIndex: 86
+    rightIndex: 132
+  - name: Inl_ScriptableRenderPass.SetRenderPassAttachments
+    leftIndex: 87
+    rightIndex: 98
+  - name: VFX.ParticleSystem.BatchUpdate
+    leftIndex: 88
+    rightIndex: 97
+  - name: Inl_BokehDepthOfField
+    leftIndex: 89
+    rightIndex: -1
+  - name: Shadows.ExtractShaderPassContext
+    leftIndex: 90
+    rightIndex: 207
+  - name: PostLateUpdate.UpdateAllRenderers
+    leftIndex: 91
+    rightIndex: 51
+  - name: Director.PrepareFrame
+    leftIndex: 92
+    rightIndex: 72
+  - name: MeshSkinning.GPUSkinning
+    leftIndex: 93
+    rightIndex: 62
+  - name: Shadows.SplitAndSortCasters
+    leftIndex: 94
+    rightIndex: 188
+  - name: Camera.RenderSkybox
+    leftIndex: 95
+    rightIndex: 107
+  - name: Terrain.Trees.Render
+    leftIndex: 96
+    rightIndex: 89
+  - name: CullPerObjectLights
+    leftIndex: 97
+    rightIndex: 103
+  - name: Inl_Setup Main Shadowmap
+    leftIndex: 98
+    rightIndex: 117
+  - name: PhysX.ScScene.broadPhase
+    leftIndex: 99
+    rightIndex: -1
+  - name: Inl_MainLightShadow
+    leftIndex: 100
+    rightIndex: 158
+  - name: Inl_ScriptableRenderer.SetupCullingParameters
+    leftIndex: 101
+    rightIndex: 80
+  - name: PreLateUpdate.DirectorUpdateAnimationEnd
+    leftIndex: 102
+    rightIndex: 60
+  - name: Inl_DrawObjectsPass
+    leftIndex: 103
+    rightIndex: 113
+  - name: Inl_ScriptableRenderer.SetPerCameraShaderVariables
+    leftIndex: 104
+    rightIndex: 121
+  - name: Terrain.UpdateSplatProperties
+    leftIndex: 105
+    rightIndex: 102
+  - name: MeshSkinning.SkinOnGPU
+    leftIndex: 106
+    rightIndex: 74
+  - name: Physics.FetchResults
+    leftIndex: 107
+    rightIndex: 133
+  - name: VFX.ParticleSystem.BatchInit
+    leftIndex: 108
+    rightIndex: 647
+  - name: Inl_UniversalRenderPipeline.InitializeCameraData
+    leftIndex: 109
+    rightIndex: 116
+  - name: Inl_UniversalRenderPipeline.InitializeAdditionalCameraData
+    leftIndex: 110
+    rightIndex: 100
+  - name: PostLateUpdate.UpdateAudio
+    leftIndex: 111
+    rightIndex: 55
+  - name: Inl_Unnamed_ScriptableRenderPass
+    leftIndex: 112
+    rightIndex: 119
+  - name: AudioManager.Update
+    leftIndex: 113
+    rightIndex: 56
+  - name: FinalizeUpdateRendererBoundingVolumes
+    leftIndex: 114
+    rightIndex: 61
+  - name: Compute.Dispatch
+    leftIndex: 115
+    rightIndex: 130
+  - name: CullAllVisibleLights
+    leftIndex: 116
+    rightIndex: 93
+  - name: Physics.SwapBuffers
+    leftIndex: 117
+    rightIndex: 141
+  - name: PreUpdate.SendMouseEvents
+    leftIndex: 118
+    rightIndex: 172
+  - name: Monobehaviour.OnMouse_
+    leftIndex: 119
+    rightIndex: 177
+  - name: 'UnityEngine.InputLegacyModule.dll!UnityEngine::SendMouseEvents.DoSendMouseEvents()
+      [Invoke]'
+    leftIndex: 120
+    rightIndex: 182
+  - name: FixedUpdate.AudioFixedUpdate
+    leftIndex: 121
+    rightIndex: 106
+  - name: BokehDepthOfField
+    leftIndex: 122
+    rightIndex: -1
+  - name: SSAO
+    leftIndex: 123
+    rightIndex: 108
+  - name: ComputeSkinningDispatch
+    leftIndex: 124
+    rightIndex: 94
+  - name: AudioManager.FixedUpdate
+    leftIndex: 125
+    rightIndex: 109
+  - name: Inl_UniversalRenderPipeline.InitializeLightData
+    leftIndex: 126
+    rightIndex: 110
+  - name: Inl_SMAA
+    leftIndex: 127
+    rightIndex: -1
+  - name: Inl_TemporalAA
+    leftIndex: 128
+    rightIndex: -1
+  - name: Inl_MotionVectors
+    leftIndex: 129
+    rightIndex: -1
+  - name: Inl_CopyDepthPass
+    leftIndex: 130
+    rightIndex: 122
+  - name: PhysX.ScScene.islandGen
+    leftIndex: 131
+    rightIndex: -1
+  - name: BeginRenderQueueExtraction
+    leftIndex: 132
+    rightIndex: 84
+  - name: MeshSkinning.CalcMatrices
+    leftIndex: 133
+    rightIndex: 92
+  - name: Shadows.Draw
+    leftIndex: 134
+    rightIndex: 164
+  - name: VisualEffect.PrepareMaterial
+    leftIndex: 135
+    rightIndex: 167
+  - name: VFX.Prepare
+    leftIndex: 136
+    rightIndex: 78
+  - name: VFX.ProcessCamera
+    leftIndex: 137
+    rightIndex: 205
+  - name: Material.SetPassFast
+    leftIndex: 138
+    rightIndex: 142
+  - name: Inl_UniversalRenderPipeline.InitializeShadowData
+    leftIndex: 139
+    rightIndex: 155
+  - name: Inl_SSAO
+    leftIndex: 140
+    rightIndex: 139
+  - name: Inl_DepthOnlyPass
+    leftIndex: 141
+    rightIndex: 145
+  - name: PhysX.ScScene.postBroadPhase2
+    leftIndex: 142
+    rightIndex: -1
+  - name: Inl_UniversalRenderPipeline.SetupPerCameraShaderConstants
+    leftIndex: 143
+    rightIndex: 135
+  - name: Physics.SyncColliderTransform
+    leftIndex: 144
+    rightIndex: 65
+  - name: Inl_UniversalRenderer.CreateCameraRenderTarget
+    leftIndex: 145
+    rightIndex: 170
+  - name: FixedUpdate.NewInputFixedUpdate
+    leftIndex: 146
+    rightIndex: 251
+  - name: SkinnedMeshFinalizeUpdate
+    leftIndex: 147
+    rightIndex: 73
+  - name: VFX.ParticleSystem.BatchReadbackCount
+    leftIndex: 148
+    rightIndex: 668
+  - name: 'Assembly-CSharp.dll!::GameMain.Update() [Invoke]'
+    leftIndex: 149
+    rightIndex: 128
+  - name: AudioSource.Update
+    leftIndex: 150
+    rightIndex: 101
+  - name: Inl_ScriptableRenderer.ClearRenderingState
+    leftIndex: 151
+    rightIndex: 159
+  - name: TemporalAA
+    leftIndex: 152
+    rightIndex: -1
+  - name: Director.PrepareFrameJob
+    leftIndex: 153
+    rightIndex: 131
+  - name: Animators.ProcessGraphJob
+    leftIndex: 154
+    rightIndex: 96
+  - name: PrepareSceneNodes
+    leftIndex: 155
+    rightIndex: 166
+  - name: Inl_AdditionalLightsShadowCasterPass
+    leftIndex: 156
+    rightIndex: -1
+  - name: ColorGradingLUT
+    leftIndex: 157
+    rightIndex: 187
+  - name: MeshRendererFinalizeUpdate
+    leftIndex: 158
+    rightIndex: 123
+  - name: PhysX.UpdateContinuationTask
+    leftIndex: 159
+    rightIndex: -1
+  - name: Inl_NativeRenderPass SetupNativeRenderPassFrameData
+    leftIndex: 160
+    rightIndex: 160
+  - name: Animators.WriteJob
+    leftIndex: 161
+    rightIndex: 99
+  - name: Inl_LightCookies
+    leftIndex: 162
+    rightIndex: 179
+  - name: Animators.ProcessAnimationsJob
+    leftIndex: 163
+    rightIndex: 112
+  - name: TransformChangeSystem
+    leftIndex: 164
+    rightIndex: 66
+  - name: VFX.ParticleSystem.RenderQuad
+    leftIndex: 165
+    rightIndex: 289
+  - name: TreeRenderer.Render
+    leftIndex: 166
+    rightIndex: 138
+  - name: Shadows.CullDirectionalShadowCasters
+    leftIndex: 167
+    rightIndex: 143
+  - name: Inl_DrawOpaqueObjects
+    leftIndex: 168
+    rightIndex: 176
+  - name: Physics.UpdateBodies
+    leftIndex: 169
+    rightIndex: 351
+  - name: FixedUpdate.ScriptRunBehaviourFixedUpdate
+    leftIndex: 170
+    rightIndex: 185
+  - name: SMAA
+    leftIndex: 171
+    rightIndex: -1
+  - name: 'UnityEngine.InputModule.dll!UnityEngineInternal.Input::NativeInputSystem.ShouldRunUpdate()
+      [Invoke]'
+    leftIndex: 172
+    rightIndex: 267
+  - name: 'DOTween.dll!DG.Tweening.Core::DOTweenComponent.Update() [Invoke]'
+    leftIndex: 173
+    rightIndex: 114
+  - name: PhysX.ScScene.destroyManagers
+    leftIndex: 174
+    rightIndex: -1
+  - name: FixedBehaviourUpdate
+    leftIndex: 175
+    rightIndex: 190
+  - name: Inl_DepthPrepass
+    leftIndex: 176
+    rightIndex: 196
+  - name: Shadows.CullingCallbacks
+    leftIndex: 177
+    rightIndex: 254
+  - name: Inl_UniversalRenderPipeline.InitializeStackedCameraData
+    leftIndex: 178
+    rightIndex: 175
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Rendering::SupportedRenderingFeatures.IsLightmapBakeTypeSupportedByRef()
+      [Invoke]'
+    leftIndex: 179
+    rightIndex: 173
+  - name: Profiler.CollectLegacyStats
+    leftIndex: 180
+    rightIndex: 134
+  - name: Terrain.Details.Render
+    leftIndex: 181
+    rightIndex: 149
+  - name: Animators.PrepareFirstPass
+    leftIndex: 182
+    rightIndex: 127
+  - name: Shadows.Sort
+    leftIndex: 183
+    rightIndex: 275
+  - name: Graphics.DrawProcedural
+    leftIndex: 184
+    rightIndex: 265
+  - name: Animators.ApplyOnAnimatorMove
+    leftIndex: 185
+    rightIndex: 165
+  - name: GC.Alloc
+    leftIndex: 186
+    rightIndex: 329
+  - name: Audio.FMODSystemUpdate
+    leftIndex: 187
+    rightIndex: 88
+  - name: EarlyUpdate.PollPlayerConnection
+    leftIndex: 188
+    rightIndex: 86
+  - name: StdShadow.ApplyShader
+    leftIndex: 189
+    rightIndex: 234
+  - name: Inl_CopyDepth
+    leftIndex: 190
+    rightIndex: 162
+  - name: PlayerConnection.Poll
+    leftIndex: 191
+    rightIndex: -1
+  - name: 'Unity.RenderPipelines.Core.Runtime.dll!UnityEngine.Rendering::DebugUpdater.Update()
+      [Invoke]'
+    leftIndex: 192
+    rightIndex: 154
+  - name: 'Assembly-CSharp.dll!::LightningPropagator.Update() [Invoke]'
+    leftIndex: 193
+    rightIndex: 115
+  - name: PreUpdate.IMGUISendQueuedEvents
+    leftIndex: 194
+    rightIndex: 322
+  - name: VFX.ScheduleJobs
+    leftIndex: 195
+    rightIndex: 129
+  - name: LightCookies
+    leftIndex: 196
+    rightIndex: 186
+  - name: AnimatorControllerPlayable.PrepareFrame
+    leftIndex: 197
+    rightIndex: 151
+  - name: VFXBatch.PreUpdate
+    leftIndex: 198
+    rightIndex: 219
+  - name: Inl_ScriptableRenderer.AddRenderPasses
+    leftIndex: 199
+    rightIndex: 235
+  - name: Physics.Raycast
+    leftIndex: 200
+    rightIndex: 669
+  - name: RenderingCommandBuffer.PrepareKeywords
+    leftIndex: 201
+    rightIndex: 257
+  - name: Inl_DrawSkyboxPass
+    leftIndex: 202
+    rightIndex: 253
+  - name: GUI.ProcessEvents
+    leftIndex: 203
+    rightIndex: 665
+  - name: Inl_InvokeOnRenderObjectCallbackPass
+    leftIndex: 204
+    rightIndex: 198
+  - name: PhysX.ScScene.updateDynamics
+    leftIndex: 205
+    rightIndex: -1
+  - name: FindActiveLights
+    leftIndex: 206
+    rightIndex: 270
+  - name: Inl_UniversalRenderPipeline.GetMainLightIndex
+    leftIndex: 207
+    rightIndex: 191
+  - name: FixedUpdate.Physics2DFixedUpdate
+    leftIndex: 208
+    rightIndex: 258
+  - name: Inl_ScriptableRenderPass.Configure
+    leftIndex: 209
+    rightIndex: 242
+  - name: CopyDepth
+    leftIndex: 210
+    rightIndex: 157
+  - name: UpdateScreenManagerAndInput
+    leftIndex: 211
+    rightIndex: 148
+  - name: Terrain.Heightmap.RenderStep3
+    leftIndex: 212
+    rightIndex: 181
+  - name: VFXBatch.PostUpdate
+    leftIndex: 213
+    rightIndex: 263
+  - name: Profiler.CollectAudioStats
+    leftIndex: 214
+    rightIndex: 146
+  - name: Inl_Setup Additional Shadows
+    leftIndex: 215
+    rightIndex: 403
+  - name: UpdateRendererBoundingVolumes
+    leftIndex: 216
+    rightIndex: 150
+  - name: Inl_DrawTransparentObjects
+    leftIndex: 217
+    rightIndex: 215
+  - name: PhysX.ScScene.processLostContact
+    leftIndex: 218
+    rightIndex: -1
+  - name: PhysX.ScScene.processLostContact2
+    leftIndex: 219
+    rightIndex: -1
+  - name: Renderers.OncePerFrameUpdate
+    leftIndex: 220
+    rightIndex: 189
+  - name: SkinnedMeshOncePerFrameUpdate
+    leftIndex: 221
+    rightIndex: 192
+  - name: PostLateUpdate.PlayerUpdateCanvases
+    leftIndex: 222
+    rightIndex: 161
+  - name: FindBrightestDirectionalLight
+    leftIndex: 223
+    rightIndex: 276
+  - name: 'Assembly-CSharp.dll!::PlayerController.Update() [Invoke]'
+    leftIndex: 224
+    rightIndex: 194
+  - name: Animator.ProcessGraph
+    leftIndex: 225
+    rightIndex: 178
+  - name: EditorConnection.CheckForIncomingConnections
+    leftIndex: 226
+    rightIndex: 137
+  - name: Animator.ProcessAnimations
+    leftIndex: 227
+    rightIndex: 180
+  - name: UIEvents.WillRenderCanvases
+    leftIndex: 228
+    rightIndex: 171
+  - name: UGUI.Rendering.UpdateBatches
+    leftIndex: 229
+    rightIndex: 174
+  - name: PhysX.ScScene.islandInsertion
+    leftIndex: 230
+    rightIndex: -1
+  - name: Profiler.FlushCountersWithFlushOnEndOfFrame
+    leftIndex: 231
+    rightIndex: 193
+  - name: VFX.CopyBuffer
+    leftIndex: 232
+    rightIndex: 653
+  - name: Animator.ApplyOnAnimatorMove
+    leftIndex: 233
+    rightIndex: 216
+  - name: PhysX.PxsDynamics.solverSetupSolve
+    leftIndex: 234
+    rightIndex: -1
+  - name: UGUI.Rendering.EmitWorldScreenspaceCameraGeometry
+    leftIndex: 235
+    rightIndex: 144
+  - name: 'UnityEngine.UIModule.dll!UnityEngine::Canvas.SendWillRenderCanvases()
+      [Invoke]'
+    leftIndex: 236
+    rightIndex: 184
+  - name: PhysX.PxsDynamics.solverStart
+    leftIndex: 237
+    rightIndex: -1
+  - name: ScheduleUpdateRendererBoundingVolumes
+    leftIndex: 238
+    rightIndex: 212
+  - name: Inl_ScriptableRenderer.InternalFinishRendering
+    leftIndex: 239
+    rightIndex: 260
+  - name: EarlyUpdate.PhysicsResetInterpolatedTransformPosition
+    leftIndex: 240
+    rightIndex: 195
+  - name: VFX.CollectCullResults
+    leftIndex: 241
+    rightIndex: 298
+  - name: PhysX.ScScene.postNarrowPhase
+    leftIndex: 242
+    rightIndex: -1
+  - name: UGUI.Rendering.RenderOverlays
+    leftIndex: 243
+    rightIndex: 227
+  - name: Physics2D.Simulate
+    leftIndex: 244
+    rightIndex: 295
+  - name: EditorConnection.PollAllCustomMessages
+    leftIndex: 245
+    rightIndex: 136
+  - name: PhysX.ScScene.advanceStep
+    leftIndex: 246
+    rightIndex: -1
+  - name: PrepareUpdateRendererBoundingVolumes
+    leftIndex: 247
+    rightIndex: 230
+  - name: UIEvents.UIElementsRegisterRenderers
+    leftIndex: 248
+    rightIndex: 153
+  - name: GUI.Repaint
+    leftIndex: 249
+    rightIndex: 197
+  - name: VFX.CopyIndirectCount
+    leftIndex: 250
+    rightIndex: 649
+  - name: Gfx.EndAsyncJobFrame
+    leftIndex: 251
+    rightIndex: 203
+  - name: PhysX.ScScene.afterIntegrationTask
+    leftIndex: 252
+    rightIndex: -1
+  - name: PhysX.NpScene.completion
+    leftIndex: 253
+    rightIndex: -1
+  - name: ReflectionProbeAnchorManagerUpdate
+    leftIndex: 254
+    rightIndex: 147
+  - name: PhysX.ScScene.rigidBodyNarrowPhase
+    leftIndex: 255
+    rightIndex: -1
+  - name: EarlyUpdate.ExecuteMainThreadJobs
+    leftIndex: 256
+    rightIndex: 256
+  - name: Terrain.Heightmap.RenderStep1
+    leftIndex: 257
+    rightIndex: 255
+  - name: 'UnityEngine.IMGUIModule.dll!UnityEngine::Event.Internal_MakeMasterEventCurrent()
+      [Invoke]'
+    leftIndex: 258
+    rightIndex: 280
+  - name: Terrain.UpdateSplatMaterials
+    leftIndex: 259
+    rightIndex: 217
+  - name: 'UnityEngine.IMGUIModule.dll!UnityEngine::GUIUtility.SetSkin() [Invoke]'
+    leftIndex: 260
+    rightIndex: 218
+  - name: CoroutinesDelayedCalls
+    leftIndex: 261
+    rightIndex: 262
+  - name: PhysX.ScScene.postSolver
+    leftIndex: 262
+    rightIndex: -1
+  - name: EarlyUpdate.ProcessRemoteInput
+    leftIndex: 263
+    rightIndex: 210
+  - name: WaitForRenderJobs
+    leftIndex: 264
+    rightIndex: 208
+  - name: ProcessRemoteInput
+    leftIndex: 265
+    rightIndex: 209
+  - name: PhysX.NpScene.execution
+    leftIndex: 266
+    rightIndex: -1
+  - name: Physics2D.SyncTransformChanges
+    leftIndex: 267
+    rightIndex: 344
+  - name: Profiler.CollectPhysicsStats
+    leftIndex: 268
+    rightIndex: 213
+  - name: PhysX.PxsDynamics.preIntegrate
+    leftIndex: 269
+    rightIndex: -1
+  - name: FixedUpdate.ScriptRunDelayedFixedFrameRate
+    leftIndex: 270
+    rightIndex: 338
+  - name: EarlyUpdate.PlayerCleanupCachedData
+    leftIndex: 271
+    rightIndex: 75
+  - name: PreLateUpdate.ParticleSystemBeginUpdateAll
+    leftIndex: 272
+    rightIndex: 214
+  - name: JobDebuggerFrameMaintenance
+    leftIndex: 273
+    rightIndex: 273
+  - name: PlayerCleanupCachedData
+    leftIndex: 274
+    rightIndex: 76
+  - name: Cleanup Unused Cached Data
+    leftIndex: 275
+    rightIndex: 77
+  - name: PhysX.PostBroadPhaseStage2Task
+    leftIndex: 276
+    rightIndex: -1
+  - name: EndGraphicsJobs
+    leftIndex: 277
+    rightIndex: 225
+  - name: Animators.PrepareSecondPass
+    leftIndex: 278
+    rightIndex: 204
+  - name: Physics.ProcessReports
+    leftIndex: 279
+    rightIndex: 304
+  - name: PhysX.ScScene.secondPassNarrowPhase
+    leftIndex: 280
+    rightIndex: -1
+  - name: CullResultsToNativeArrays
+    leftIndex: 281
+    rightIndex: 283
+  - name: Audibility computation
+    leftIndex: 282
+    rightIndex: 140
+  - name: FrameEvents.NewInputBeforeRenderUpdate
+    leftIndex: 283
+    rightIndex: 199
+  - name: 'Unity.RenderPipelines.Core.Runtime.dll!UnityEngine.Rendering::Volume.Update()
+      [Invoke]'
+    leftIndex: 284
+    rightIndex: 221
+  - name: Animator.WriteTransforms
+    leftIndex: 285
+    rightIndex: 228
+  - name: PreLateUpdate.EndGraphicsJobsAfterScriptUpdate
+    leftIndex: 286
+    rightIndex: 223
+  - name: VFX.ZeroInitializeBuffer
+    leftIndex: 287
+    rightIndex: 651
+  - name: PhysX.ScScene.rigidBodySolver
+    leftIndex: 288
+    rightIndex: -1
+  - name: 'UnityEngine.UIElementsModule.dll!UnityEngine.UIElements.UIR::Utility.RaiseRegisterIntermediateRenderers()
+      [Invoke]'
+    leftIndex: 289
+    rightIndex: 168
+  - name: PhysX.ScScene.afterIntegration
+    leftIndex: 290
+    rightIndex: -1
+  - name: ParticleSystem.Update
+    leftIndex: 291
+    rightIndex: 222
+  - name: Animators.WriteProperties
+    leftIndex: 292
+    rightIndex: 229
+  - name: PhysX.ScScene.updateCCDMultiPass
+    leftIndex: 293
+    rightIndex: -1
+  - name: PhysX.ScScene.postBroadPhase3
+    leftIndex: 294
+    rightIndex: -1
+  - name: PreUpdate.AIUpdate
+    leftIndex: 295
+    rightIndex: 249
+  - name: PhysX.ThirdPassIslandGenTask
+    leftIndex: 296
+    rightIndex: -1
+  - name: Animator.WriteProperties
+    leftIndex: 297
+    rightIndex: 239
+  - name: Update.ScriptRunDelayedTasks
+    leftIndex: 298
+    rightIndex: 232
+  - name: FixedUpdate.DirectorFixedUpdatePostPhysics
+    leftIndex: 299
+    rightIndex: 406
+  - name: PostUpdateScreenManagerAndInput
+    leftIndex: 300
+    rightIndex: 237
+  - name: AnimationClipPlayable.EvaluateClip
+    leftIndex: 301
+    rightIndex: 282
+  - name: Initialization.DirectorSampleTime
+    leftIndex: 302
+    rightIndex: 241
+  - name: QuadTreeNode.Render
+    leftIndex: 303
+    rightIndex: 292
+  - name: PlayerEndOfFrame
+    leftIndex: 304
+    rightIndex: 252
+  - name: Animators.SortWriteJob
+    leftIndex: 305
+    rightIndex: 238
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine::UnitySynchronizationContext.ExecuteTasks()
+      [Invoke]'
+    leftIndex: 306
+    rightIndex: 240
+  - name: Director.SampleTime
+    leftIndex: 307
+    rightIndex: 245
+  - name: PhysX.ScScene.collideStep
+    leftIndex: 308
+    rightIndex: -1
+  - name: PhysX.ScScene.postIslandGen
+    leftIndex: 309
+    rightIndex: -1
+  - name: AddDirectionalLights
+    leftIndex: 310
+    rightIndex: 220
+  - name: Physics2D.SyncRigidbodyTransformChanges
+    leftIndex: 311
+    rightIndex: 409
+  - name: FixedUpdate.PhysicsClothFixedUpdate
+    leftIndex: 312
+    rightIndex: 379
+  - name: RenderTexture.GarbageCollectTemporary
+    leftIndex: 313
+    rightIndex: 243
+  - name: PreUpdate.NewInputUpdate
+    leftIndex: 314
+    rightIndex: 269
+  - name: PreLateUpdate.ScriptRunBehaviourLateUpdate
+    leftIndex: 315
+    rightIndex: 226
+  - name: RenderTexture.SetActive
+    leftIndex: 316
+    rightIndex: 316
+  - name: PhysX.ScScene.preRigidBodyNarrowPhase
+    leftIndex: 317
+    rightIndex: -1
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemWrapper.Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes()
+      [Invoke]'
+    leftIndex: 318
+    rightIndex: 259
+  - name: Layout
+    leftIndex: 319
+    rightIndex: 236
+  - name: 'DOTween.dll!DG.Tweening.Core::DOTweenComponent.FixedUpdate() [Invoke]'
+    leftIndex: 320
+    rightIndex: 277
+  - name: 'Assembly-CSharp.dll!::Projectile.Update() [Invoke]'
+    leftIndex: 321
+    rightIndex: 648
+  - name: LateBehaviourUpdate
+    leftIndex: 322
+    rightIndex: 233
+  - name: ReflectionProbeAnchorPositionUpdate
+    leftIndex: 323
+    rightIndex: 156
+  - name: Camera.Render
+    leftIndex: 324
+    rightIndex: 311
+  - name: NavMeshManager
+    leftIndex: 325
+    rightIndex: 268
+  - name: VFX.FillIndirectRenderArgs
+    leftIndex: 326
+    rightIndex: 650
+  - name: PhysX.ScScene.finalizationPhase
+    leftIndex: 327
+    rightIndex: -1
+  - name: Inl_UniversalRenderPipeline.SetupPerFrameShaderConstants
+    leftIndex: 328
+    rightIndex: 206
+  - name: PhysX.AABBManager::postBroadPhaseStage3
+    leftIndex: 329
+    rightIndex: -1
+  - name: Inl_Sort Render Passes
+    leftIndex: 330
+    rightIndex: 299
+  - name: EarlyUpdate.UpdateInputManager
+    leftIndex: 331
+    rightIndex: 202
+  - name: PostLateUpdate.UpdateCustomRenderTextures
+    leftIndex: 332
+    rightIndex: 244
+  - name: PhysX.ScScene.processLostContact3
+    leftIndex: 333
+    rightIndex: -1
+  - name: Profiler.CollectEditorStats
+    leftIndex: 334
+    rightIndex: 266
+  - name: FixedUpdate.DirectorFixedUpdate
+    leftIndex: 335
+    rightIndex: 321
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.HandleRenderPipelineChange()
+      [Invoke]'
+    leftIndex: 336
+    rightIndex: 247
+  - name: PhysX.ScScene.postThirdPassIslandGenTask
+    leftIndex: 337
+    rightIndex: -1
+  - name: EarlyUpdate.UpdatePreloading
+    leftIndex: 338
+    rightIndex: 201
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.GetCurrentPipelineAssetType()
+      [Invoke]'
+    leftIndex: 339
+    rightIndex: 284
+  - name: FrameEvents.OnBeforeRenderCallback
+    leftIndex: 340
+    rightIndex: 271
+  - name: 'UnityEditor.CoreModule.dll!UnityEditor::PhysicsDebugDraw.InvokeBeforeSimulate()
+      [Invoke]'
+    leftIndex: 341
+    rightIndex: 335
+  - name: PhysX.ScScene.processLostSolverPatchesTask
+    leftIndex: 342
+    rightIndex: -1
+  - name: Loading.UpdatePreloading
+    leftIndex: 343
+    rightIndex: 200
+  - name: 'UnityEngine.InputModule.dll!UnityEngineInternal.Input::NativeInputSystem.NotifyBeforeUpdate()
+      [Invoke]'
+    leftIndex: 344
+    rightIndex: 327
+  - name: Physics.SyncRigidbodyTransform
+    leftIndex: 345
+    rightIndex: 331
+  - name: PhysX.ScScene.fetchPatchEventsTask
+    leftIndex: 346
+    rightIndex: -1
+  - name: PostLateUpdate.MemoryFrameMaintenance
+    leftIndex: 347
+    rightIndex: 264
+  - name: PreLateUpdate.AIUpdatePostScript
+    leftIndex: 348
+    rightIndex: 290
+  - name: CleanUp.TextRenderingGarbageCollect
+    leftIndex: 349
+    rightIndex: 79
+  - name: CustomRenderTextures.Update
+    leftIndex: 350
+    rightIndex: 261
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine::Application.InvokeOnBeforeRender()
+      [Invoke]'
+    leftIndex: 351
+    rightIndex: 279
+  - name: FixedUpdate.ClearLines
+    leftIndex: 352
+    rightIndex: 425
+  - name: Terrain.Heightmap.RenderStep2
+    leftIndex: 353
+    rightIndex: 333
+  - name: PhysX.DirtyShapeUpdatesTask
+    leftIndex: 354
+    rightIndex: -1
+  - name: Profiler.SerializeStats
+    leftIndex: 355
+    rightIndex: 281
+  - name: 'UnityEngine.InputModule.dll!UnityEngineInternal.Input::NativeInputSystem.NotifyUpdate()
+      [Invoke]'
+    leftIndex: 356
+    rightIndex: 293
+  - name: PhysX.ScScene.postBroadPhaseCont
+    leftIndex: 357
+    rightIndex: -1
+  - name: Profiler.CollectUIStats
+    leftIndex: 358
+    rightIndex: 278
+  - name: PostLateUpdate.GUIClearEvents
+    leftIndex: 359
+    rightIndex: 296
+  - name: ReflectionProbes.Update
+    leftIndex: 360
+    rightIndex: 313
+  - name: FixedUpdate.LegacyFixedAnimationUpdate
+    leftIndex: 361
+    rightIndex: 357
+  - name: AddCustomActiveLocalLights
+    leftIndex: 362
+    rightIndex: 307
+  - name: updateScene.Invoke
+    leftIndex: 363
+    rightIndex: 305
+  - name: TimeUpdate.WaitForLastPresentationAndUpdateTime
+    leftIndex: 364
+    rightIndex: 272
+  - name: PhysX.PxsDynamics.createForceChangeThresholdStream
+    leftIndex: 365
+    rightIndex: -1
+  - name: PhysX.PxsDynamics.solverCreateFinalizeConstraints
+    leftIndex: 366
+    rightIndex: -1
+  - name: AudioProfiler.CaptureFrame
+    leftIndex: 367
+    rightIndex: 274
+  - name: Render
+    leftIndex: 368
+    rightIndex: 297
+  - name: Initialization.XREarlyUpdate
+    leftIndex: 369
+    rightIndex: 288
+  - name: UpdatePreloading
+    leftIndex: 370
+    rightIndex: 211
+  - name: EarlyUpdate.UpdateContentLoading
+    leftIndex: 371
+    rightIndex: 286
+  - name: PhysX.ScScene.ccdBroadPhase
+    leftIndex: 372
+    rightIndex: -1
+  - name: PhysX.ScScene.lostTouchReports
+    leftIndex: 373
+    rightIndex: -1
+  - name: Tree.ComputeWindPropertiesForAllVisible
+    leftIndex: 374
+    rightIndex: 339
+  - name: Physics2D.SyncColliderTransformChanges
+    leftIndex: 375
+    rightIndex: 417
+  - name: ComputeNeedsPerObjectLights
+    leftIndex: 376
+    rightIndex: 369
+  - name: PreUpdate.PhysicsUpdate
+    leftIndex: 377
+    rightIndex: 370
+  - name: PreUpdate.WindUpdate
+    leftIndex: 378
+    rightIndex: 302
+  - name: UIEvents.CanvasManagerEmitOffScreenGeometry
+    leftIndex: 379
+    rightIndex: 285
+  - name: 'Assembly-CSharp.dll!::EnemySpawner.Update() [Invoke]'
+    leftIndex: 380
+    rightIndex: 326
+  - name: TextRendering.CollectGarbage
+    leftIndex: 381
+    rightIndex: 391
+  - name: PostLateUpdate.UpdateRectTransform
+    leftIndex: 382
+    rightIndex: 356
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Rendering::SupportedRenderingFeatures.IsUIOverlayRenderedBySRP()
+      [Invoke]'
+    leftIndex: 383
+    rightIndex: 345
+  - name: FrameEvents.XRBeginFrame
+    leftIndex: 384
+    rightIndex: 287
+  - name: 'UnityEngine.UIElementsModule.dll!UnityEngine.UIElements::UIElementsRuntimeUtilityNative.RepaintOverlayPanels()
+      [Invoke]'
+    leftIndex: 385
+    rightIndex: 300
+  - name: PhysX.PxsDynamics.solverConstraintPartition
+    leftIndex: 386
+    rightIndex: -1
+  - name: FixedUpdate.XRFixedUpdate
+    leftIndex: 387
+    rightIndex: 421
+  - name: FixedUpdate.DirectorFixedSampleTime
+    leftIndex: 388
+    rightIndex: 408
+  - name: PreLateUpdate.Physics2DLateUpdate
+    leftIndex: 389
+    rightIndex: 294
+  - name: PhysX.ScScene.unblockNarrowPhase
+    leftIndex: 390
+    rightIndex: -1
+  - name: PostLateUpdate.PhysicsSkinnedClothBeginUpdate
+    leftIndex: 391
+    rightIndex: 301
+  - name: addCustomLights.Invoke
+    leftIndex: 392
+    rightIndex: 437
+  - name: TreeRenderer.UpdateTreeSceneNodes
+    leftIndex: 393
+    rightIndex: 320
+  - name: Inl_RenderPipeline.EndCameraRendering
+    leftIndex: 394
+    rightIndex: 374
+  - name: Application.Integrate Assets in Background
+    leftIndex: 395
+    rightIndex: 224
+  - name: Initialization.AsyncUploadTimeSlicedUpdate
+    leftIndex: 396
+    rightIndex: 248
+  - name: EarlyUpdate.RendererNotifyInvisible
+    leftIndex: 397
+    rightIndex: 306
+  - name: PhysX.PxsDynamics.solverEnd
+    leftIndex: 398
+    rightIndex: -1
+  - name: Physics.TriggerStays
+    leftIndex: 399
+    rightIndex: 443
+  - name: PreUpdate.UpdateVideo
+    leftIndex: 400
+    rightIndex: 319
+  - name: EarlyUpdate.ClearLines
+    leftIndex: 401
+    rightIndex: 323
+  - name: ClothManager.LateUpdate
+    leftIndex: 402
+    rightIndex: 334
+  - name: Physics.Interpolation
+    leftIndex: 403
+    rightIndex: 332
+  - name: 'DOTween.dll!DG.Tweening.Core::DOTweenComponent.LateUpdate() [Invoke]'
+    leftIndex: 404
+    rightIndex: 309
+  - name: CombineJobResults
+    leftIndex: 405
+    rightIndex: 654
+  - name: Animator.PrepareAnimationEvents
+    leftIndex: 406
+    rightIndex: 312
+  - name: Inl_RenderPipeline.BeginCameraRendering
+    leftIndex: 407
+    rightIndex: 392
+  - name: PhysX.ScScene.updateBodiesAndShapes
+    leftIndex: 408
+    rightIndex: -1
+  - name: Terrain.FlushDirty
+    leftIndex: 409
+    rightIndex: 416
+  - name: PhysX.ScScene.ccdBroadPhaseAABB
+    leftIndex: 410
+    rightIndex: -1
+  - name: 'UnityEngine.AIModule.dll!UnityEngine.AI::NavMesh.Internal_CallOnNavMeshPreUpdate()
+      [Invoke]'
+    leftIndex: 411
+    rightIndex: 375
+  - name: ScheduleCullingGroups
+    leftIndex: 412
+    rightIndex: 394
+  - name: Physics.UpdateVehicles
+    leftIndex: 413
+    rightIndex: 420
+  - name: FindMainCamera
+    leftIndex: 414
+    rightIndex: 341
+  - name: EarlyUpdate.ScriptRunDelayedStartupFrame
+    leftIndex: 415
+    rightIndex: 308
+  - name: Update.DirectorUpdate
+    leftIndex: 416
+    rightIndex: 395
+  - name: PhysX.ScScene.constraintProjection
+    leftIndex: 417
+    rightIndex: -1
+  - name: PreLateUpdate.ConstraintManagerUpdate
+    leftIndex: 418
+    rightIndex: 314
+  - name: PhysX.PostThirdPassTask
+    leftIndex: 419
+    rightIndex: -1
+  - name: SpeedTreeWindManager.Update
+    leftIndex: 420
+    rightIndex: 340
+  - name: Physics.JointBreaks
+    leftIndex: 421
+    rightIndex: 389
+  - name: CanvasUpdate.Prelayout
+    leftIndex: 422
+    rightIndex: 373
+  - name: PostLateUpdate.UpdateVideo
+    leftIndex: 423
+    rightIndex: 348
+  - name: PhysX.ScScene.beforeSolver
+    leftIndex: 424
+    rightIndex: -1
+  - name: Physics2D.GetRayIntersection
+    leftIndex: 425
+    rightIndex: 667
+  - name: EarlyUpdate.XRUpdate
+    leftIndex: 426
+    rightIndex: 353
+  - name: FindDirectionalShadowCastingLights
+    leftIndex: 427
+    rightIndex: 355
+  - name: PhysX.ScScene.preallocateContactManagers
+    leftIndex: 428
+    rightIndex: -1
+  - name: ClipperRegistry.Cull
+    leftIndex: 429
+    rightIndex: 347
+  - name: Initialization.UpdateCameraMotionVectors
+    leftIndex: 430
+    rightIndex: 382
+  - name: PostLateUpdate.UpdateVideoTextures
+    leftIndex: 431
+    rightIndex: 318
+  - name: PostLateUpdate.TriggerEndOfFrameCallbacks
+    leftIndex: 432
+    rightIndex: 350
+  - name: EarlyUpdate.AnalyticsCoreStatsUpdate
+    leftIndex: 433
+    rightIndex: 315
+  - name: EarlyUpdate.UnityWebRequestUpdate
+    leftIndex: 434
+    rightIndex: 317
+  - name: Profiler.CollectVideoStats
+    leftIndex: 435
+    rightIndex: 349
+  - name: SoundManager.Update
+    leftIndex: 436
+    rightIndex: 378
+  - name: EarlyUpdate.UpdateStreamingManager
+    leftIndex: 437
+    rightIndex: 365
+  - name: SpeedTreeWindManager.GetCachedGlobalWindVector
+    leftIndex: 438
+    rightIndex: 358
+  - name: Carving.ApplyResults
+    leftIndex: 439
+    rightIndex: 368
+  - name: PostLateUpdate.UpdateResolution
+    leftIndex: 440
+    rightIndex: 342
+  - name: GeneralConnection.Poll
+    leftIndex: 441
+    rightIndex: 310
+  - name: Physics.UpdateArticulations
+    leftIndex: 442
+    rightIndex: 414
+  - name: PhysX.ScScene.processNpLostTouchTask
+    leftIndex: 443
+    rightIndex: -1
+  - name: EarlyUpdate.DispatchEventQueueEvents
+    leftIndex: 444
+    rightIndex: 385
+  - name: Carving.Prepare
+    leftIndex: 445
+    rightIndex: 396
+  - name: Inl_ScriptableRenderer.SetupRenderPasses
+    leftIndex: 446
+    rightIndex: 419
+  - name: Update.ScriptRunDelayedDynamicFrameRate
+    leftIndex: 447
+    rightIndex: 400
+  - name: ContentLoadFrontend.IntegrateUpdate
+    leftIndex: 448
+    rightIndex: 359
+  - name: Gfx.WaitForPresentOnGfxThread
+    leftIndex: 449
+    rightIndex: 377
+  - name: Physics2D.CollectProfileInfo
+    leftIndex: 450
+    rightIndex: 328
+  - name: EarlyUpdate.ClearIntermediateRenderers
+    leftIndex: 451
+    rightIndex: 371
+  - name: 'UnityEngine.UIModule.dll!UnityEngine::Canvas.SendPreWillRenderCanvases()
+      [Invoke]'
+    leftIndex: 452
+    rightIndex: 352
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Rendering::OnDemandRendering.GetRenderFrameInterval()
+      [Invoke]'
+    leftIndex: 453
+    rightIndex: 324
+  - name: Physics.TriggerEnterExits
+    leftIndex: 454
+    rightIndex: 426
+  - name: EarlyUpdate.UpdateTextureStreamingManager
+    leftIndex: 455
+    rightIndex: 366
+  - name: EarlyUpdate.SpriteAtlasManagerUpdate
+    leftIndex: 456
+    rightIndex: 387
+  - name: PreUpdate.Physics2DUpdate
+    leftIndex: 457
+    rightIndex: 404
+  - name: EarlyUpdate.UpdateAsyncInstantiate
+    leftIndex: 458
+    rightIndex: -1
+  - name: PostLateUpdate.XRPostLateUpdate
+    leftIndex: 459
+    rightIndex: 386
+  - name: FrameEvents.XREndFrame
+    leftIndex: 460
+    rightIndex: 381
+  - name: Animators.FireAnimationEventsAndBehaviours
+    leftIndex: 461
+    rightIndex: 412
+  - name: PostLateUpdate.SortingGroupsUpdate
+    leftIndex: 462
+    rightIndex: 390
+  - name: EarlyUpdate.UpdateMainGameViewRect
+    leftIndex: 463
+    rightIndex: 402
+  - name: PostLateUpdate.DirectorRenderImage
+    leftIndex: 464
+    rightIndex: 363
+  - name: Update Lights
+    leftIndex: 465
+    rightIndex: 364
+  - name: suspendPointHook.Invoke
+    leftIndex: 466
+    rightIndex: 384
+  - name: EarlyUpdate.ResetFrameStatsAfterPresent
+    leftIndex: 467
+    rightIndex: 413
+  - name: Send messages
+    leftIndex: 468
+    rightIndex: 652
+  - name: MeshRendererPrepareDispatchUpdate
+    leftIndex: 469
+    rightIndex: 361
+  - name: Profiler.CollectGIStats
+    leftIndex: 470
+    rightIndex: 439
+  - name: ConstraintManager::Update
+    leftIndex: 471
+    rightIndex: 380
+  - name: EarlyUpdate.ProcessMouseInWindow
+    leftIndex: 472
+    rightIndex: 430
+  - name: EarlyUpdate.PerformanceAnalyticsUpdate
+    leftIndex: 473
+    rightIndex: 401
+  - name: PostLateUpdate.ShaderHandleErrors
+    leftIndex: 474
+    rightIndex: 343
+  - name: PreLateUpdate.DirectorDeferredEvaluate
+    leftIndex: 475
+    rightIndex: 376
+  - name: PostLateUpdate.ParticleSystemEndUpdateAll
+    leftIndex: 476
+    rightIndex: 336
+  - name: Inl_UniversalRenderPipeline.GetPerObjectLightFlags
+    leftIndex: 477
+    rightIndex: 447
+  - name: Profiler.FlushFileIOCounters
+    leftIndex: 478
+    rightIndex: 360
+  - name: PostLateUpdate.PhysicsSkinnedClothFinishUpdate
+    leftIndex: 479
+    rightIndex: 367
+  - name: PreLateUpdate.LegacyAnimationUpdate
+    leftIndex: 480
+    rightIndex: 383
+  - name: PostLateUpdate.XRPreEndFrame
+    leftIndex: 481
+    rightIndex: 399
+  - name: PostLateUpdate.EndGraphicsJobsAfterScriptLateUpdate
+    leftIndex: 482
+    rightIndex: 436
+  - name: Physics.ExecuteDeferredTriggerErase
+    leftIndex: 483
+    rightIndex: 644
+  - name: Flush DSP connections
+    leftIndex: 484
+    rightIndex: 422
+  - name: ClothScene.Update
+    leftIndex: 485
+    rightIndex: 415
+  - name: TimeManager.Update
+    leftIndex: 486
+    rightIndex: 418
+  - name: Inl_RenderPipeline.BeginContextRendering
+    leftIndex: 487
+    rightIndex: 337
+  - name: ParticleSystem.EndUpdateAll
+    leftIndex: 488
+    rightIndex: 346
+  - name: GlobalEventQueue
+    leftIndex: 489
+    rightIndex: 398
+  - name: PostLateUpdate.DirectorLateUpdate
+    leftIndex: 490
+    rightIndex: 405
+  - name: PreUpdate.CheckTexFieldInput
+    leftIndex: 491
+    rightIndex: 612
+  - name: Semaphore.WaitForSignal
+    leftIndex: 492
+    rightIndex: 433
+  - name: EarlyUpdate.UpdateAsyncReadbackManager
+    leftIndex: 493
+    rightIndex: 411
+  - name: TextureStreamingManager.Update
+    leftIndex: 494
+    rightIndex: 424
+  - name: FindShadowCastingLights
+    leftIndex: 495
+    rightIndex: 429
+  - name: PostLateUpdate.InputEndFrame
+    leftIndex: 496
+    rightIndex: 407
+  - name: PostLateUpdate.ScriptRunDelayedDynamicFrameRate
+    leftIndex: 497
+    rightIndex: 354
+  - name: Connections.Process
+    leftIndex: 498
+    rightIndex: 393
+  - name: PhysX.Completion Task
+    leftIndex: 499
+    rightIndex: -1
+  - name: Connections.Poll
+    leftIndex: 500
+    rightIndex: 441
+  - name: SkinnedMeshPrepareDispatchUpdate
+    leftIndex: 501
+    rightIndex: 423
+  - name: PostLateUpdate.BatchModeUpdate
+    leftIndex: 502
+    rightIndex: -1
+  - name: EarlyUpdate.GpuTimestamp
+    leftIndex: 503
+    rightIndex: 448
+  - name: PostLateUpdate.UpdateCaptureScreenshot
+    leftIndex: 504
+    rightIndex: 431
+  - name: UIEvents.UpdateCanvasRectTransform
+    leftIndex: 505
+    rightIndex: 362
+  - name: SortingGroupManager.Update
+    leftIndex: 506
+    rightIndex: 444
+  - name: ClothManager.UploadSimulatedSkinData
+    leftIndex: 507
+    rightIndex: 397
+  - name: EarlyUpdate.UpdateCanvasRectTransform
+    leftIndex: 508
+    rightIndex: 372
+  - name: EarlyUpdate.Physics2DEarlyUpdate
+    leftIndex: 509
+    rightIndex: 428
+  - name: Inl_RenderPipeline.EndContextRendering
+    leftIndex: 510
+    rightIndex: 435
+  - name: ParticleSystem.WaitForPreviousRenderingToFinish
+    leftIndex: 511
+    rightIndex: 438
+  - name: PreLateUpdate.PhysicsLateUpdate
+    leftIndex: 512
+    rightIndex: 432
+  - name: TreeRenderer.UpdateVisibility
+    leftIndex: 513
+    rightIndex: 446
+  - name: EditorConnection.RefreshObservablePlayerList
+    leftIndex: 514
+    rightIndex: 388
+  - name: Profiler.CollectUICanvasStats
+    leftIndex: 515
+    rightIndex: 666
+  - name: CanvasUpdate.PreRender
+    leftIndex: 516
+    rightIndex: 442
+  - name: CullingGroupSendEvents
+    leftIndex: 517
+    rightIndex: 434
+  - name: CanvasUpdate.LatePreRender
+    leftIndex: 518
+    rightIndex: 440
+  - name: PostLateUpdate.ResetInputAxis
+    leftIndex: 519
+    rightIndex: 449
+  - name: Preload Single Step
+    leftIndex: 520
+    rightIndex: 250
+  - name: TypeCache.New.Query
+    leftIndex: 521
+    rightIndex: -1
+  - name: Canvas.RenderOverlays
+    leftIndex: 522
+    rightIndex: -1
+  - name: 'Unity.RenderPipelines.Universal.Runtime.dll!UnityEngine.Rendering.Universal::UniversalRenderPipelineAsset.get_terrainDetailGrassBillboardShader()
+      [Invoke]'
+    leftIndex: 523
+    rightIndex: -1
+  - name: Texture.AwakeFromLoad
+    leftIndex: 524
+    rightIndex: -1
+  - name: File.Close
+    leftIndex: 525
+    rightIndex: -1
+  - name: Loading.AwakeFromLoad
+    leftIndex: 526
+    rightIndex: -1
+  - name: 'Loading.CheckConsistency [Editor Only]'
+    leftIndex: 527
+    rightIndex: -1
+  - name: IntegrateAllThreadedObjects
+    leftIndex: 528
+    rightIndex: -1
+  - name: Loading.LoadRemainingPreallocatedObjects
+    leftIndex: 529
+    rightIndex: -1
+  - name: ReadObjectFromSerializedFile
+    leftIndex: 530
+    rightIndex: -1
+  - name: Loading.ReadObjectThreaded
+    leftIndex: 531
+    rightIndex: -1
+  - name: File.Read
+    leftIndex: 532
+    rightIndex: -1
+  - name: File.Open
+    leftIndex: 533
+    rightIndex: -1
+  - name: AwakeFromLoad Threaded
+    leftIndex: 534
+    rightIndex: -1
+  - name: AsyncReadManager.SyncRequest
+    leftIndex: 535
+    rightIndex: -1
+  - name: 'UnityEditor.CoreModule.dll!UnityEditor::MaterialEditor.ApplyMaterialPropertyDrawersFromNative()
+      [Invoke]'
+    leftIndex: 536
+    rightIndex: -1
+  - name: Loading.LoadFileHeaders
+    leftIndex: 537
+    rightIndex: -1
+  - name: 'UnityEditor.CoreModule.dll!UnityEditor::ShaderGUIUtility.ValidateMaterial()
+      [Invoke]'
+    leftIndex: 538
+    rightIndex: -1
+  - name: 'Unity.RenderPipelines.Universal.Runtime.dll!UnityEngine.Rendering.Universal::UniversalRenderPipelineAsset.get_terrainDetailLitShader()
+      [Invoke]'
+    leftIndex: 539
+    rightIndex: -1
+  - name: 'Unity.RenderPipelines.Universal.Runtime.dll!UnityEngine.Rendering.Universal::UniversalRenderPipelineAsset.get_terrainDetailGrassShader()
+      [Invoke]'
+    leftIndex: 540
+    rightIndex: -1
+  - name: MeshSkinning.UpdateImmediate
+    leftIndex: 541
+    rightIndex: 459
+  - name: 'UnityEditor.CoreModule.dll!UnityEditor.Playables::Utility.OnDestroyingPlayableGraph()
+      [Invoke]'
+    leftIndex: 542
+    rightIndex: 472
+  - name: FindLocalShadowCastingLights
+    leftIndex: 543
+    rightIndex: -1
+  - name: Director.HouseKeeping
+    leftIndex: 544
+    rightIndex: 476
+  - name: Physics.InvokeOnCollisionEvents
+    leftIndex: 545
+    rightIndex: 629
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine::StackTraceUtility.ExtractStackTrace()
+      [Invoke]'
+    leftIndex: 546
+    rightIndex: 474
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine::Application.CallLogCallback()
+      [Invoke]'
+    leftIndex: 547
+    rightIndex: 670
+  - name: PhysX.PxsDynamics.createFinalizeContacts
+    leftIndex: 548
+    rightIndex: -1
+  - name: UIEvents.AlignCanvasRectTransformWithCamera
+    leftIndex: 549
+    rightIndex: 451
+  - name: AddLocalLights
+    leftIndex: 550
+    rightIndex: -1
+  - name: AddActiveLocalLights
+    leftIndex: 551
+    rightIndex: -1
+  - name: GameObject.ActivateAwakeRecursively
+    leftIndex: 552
+    rightIndex: 613
+  - name: 'Assembly-CSharp.dll!::Lightning.Start() [Invoke]'
+    leftIndex: 553
+    rightIndex: 634
+  - name: Transform.SetHierarchyCapacity
+    leftIndex: 554
+    rightIndex: 642
+  - name: TextureStreamingManager.RemoveRenderer
+    leftIndex: 555
+    rightIndex: 471
+  - name: gameObjectChangedScene.Invoke
+    leftIndex: 556
+    rightIndex: 643
+  - name: 'Assembly-CSharp.dll!::Projectile.OnCollisionEnter() [Invoke]'
+    leftIndex: 557
+    rightIndex: 633
+  - name: ConstraintManager::Update::JobSetup
+    leftIndex: 558
+    rightIndex: 454
+  - name: Animator.Rebind
+    leftIndex: 559
+    rightIndex: 464
+  - name: Animator.SetupAvatarDataSet
+    leftIndex: 560
+    rightIndex: 463
+  - name: 'Assembly-CSharp.dll!::Enemy.Awake() [Invoke]'
+    leftIndex: 561
+    rightIndex: 461
+  - name: Idle
+    leftIndex: 562
+    rightIndex: 450
+  - name: LogStringToConsole
+    leftIndex: 563
+    rightIndex: 475
+  - name: PlayerLoop.SceneRepaintDirty
+    leftIndex: 564
+    rightIndex: 477
+  - name: Render.LineOrTrail
+    leftIndex: 565
+    rightIndex: 325
+  - name: BatchRenderer.Flush
+    leftIndex: 566
+    rightIndex: 291
+  - name: PrepareSceneNodesSetUp
+    leftIndex: 567
+    rightIndex: 410
+  - name: 'Assembly-CSharp.dll!::Lightning.Update() [Invoke]'
+    leftIndex: 568
+    rightIndex: 169
+  - name: VisualEffect.Transfer
+    leftIndex: 569
+    rightIndex: 660
+  - name: 'Assembly-CSharp.dll!::LightningPropagator.Start() [Invoke]'
+    leftIndex: 570
+    rightIndex: 620
+  - name: Physics.OverlapSphere
+    leftIndex: 571
+    rightIndex: 645
+  - name: 'Assembly-CSharp.dll!::SelfDestroyInSeconds.Start() [Invoke]'
+    leftIndex: 572
+    rightIndex: 622
+  - name: VFX.InitializeDeadListBuffer
+    leftIndex: 573
+    rightIndex: 659
+  - name: Physics.Contacts
+    leftIndex: 574
+    rightIndex: 628
+  - name: 'UnityEngine.PhysicsModule.dll!UnityEngine::Physics.OnSceneContact() [Invoke]'
+    leftIndex: 575
+    rightIndex: 630
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Events::UnityEventBase.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
+      [Invoke]'
+    leftIndex: 576
+    rightIndex: 466
+  - name: 'UnityEditor.CoreModule.dll!UnityEditor.Playables::Utility.OnPlayableGraphCreated()
+      [Invoke]'
+    leftIndex: 577
+    rightIndex: 465
+  - name: Physics2D.InterpolatePoses
+    leftIndex: 578
+    rightIndex: 427
+  - name: Object.Unregister
+    leftIndex: 579
+    rightIndex: 631
+  - name: GameObject.Deactivate
+    leftIndex: 580
+    rightIndex: 452
+  - name: Destroy
+    leftIndex: 581
+    rightIndex: 621
+  - name: 'CheckAllowDestructionRecursive [Editor Only]'
+    leftIndex: 582
+    rightIndex: 664
+  - name: 'Assembly-CSharp.dll!::Lightning.TweenLineRenderer() [Coroutine: MoveNext]
+      [Invoke]'
+    leftIndex: 583
+    rightIndex: 646
+  - name: Audio Used Memory
+    leftIndex: 584
+    rightIndex: 534
+  - name: Audio Reserved Memory
+    leftIndex: 585
+    rightIndex: 553
+  - name: Video Used Memory
+    leftIndex: 586
+    rightIndex: 532
+  - name: Object.SetName
+    leftIndex: 587
+    rightIndex: 632
+  - name: Profiler Reserved Memory
+    leftIndex: 588
+    rightIndex: 593
+  - name: Render Textures Count
+    leftIndex: 589
+    rightIndex: 502
+  - name: Video Reserved Memory
+    leftIndex: 590
+    rightIndex: 521
+  - name: Profiler Used Memory
+    leftIndex: 591
+    rightIndex: 592
+  - name: App Committed Memory
+    leftIndex: 592
+    rightIndex: 587
+  - name: GC Used Memory
+    leftIndex: 593
+    rightIndex: 590
+  - name: Total Reserved Memory
+    leftIndex: 594
+    rightIndex: 589
+  - name: Total Used Memory
+    leftIndex: 595
+    rightIndex: 588
+  - name: Render Textures Bytes
+    leftIndex: 596
+    rightIndex: 501
+  - name: App Resident Memory
+    leftIndex: 597
+    rightIndex: 586
+  - name: Physics Used Memory
+    leftIndex: 598
+    rightIndex: 579
+  - name: System Used Memory
+    leftIndex: 599
+    rightIndex: 594
+  - name: File Handles Open
+    leftIndex: 600
+    rightIndex: 582
+  - name: GC Reserved Memory
+    leftIndex: 601
+    rightIndex: 591
+  - name: Asset Count
+    leftIndex: 602
+    rightIndex: 499
+  - name: Gfx Used Memory
+    leftIndex: 603
+    rightIndex: 494
+  - name: Game Object Count
+    leftIndex: 604
+    rightIndex: 497
+  - name: Component.SetGameObject
+    leftIndex: 605
+    rightIndex: 623
+  - name: Object.Register
+    leftIndex: 606
+    rightIndex: 640
+  - name: Instantiate.Produce
+    leftIndex: 607
+    rightIndex: 637
+  - name: 'Assembly-CSharp.dll!::Lightning..ctor() [Invoke]'
+    leftIndex: 608
+    rightIndex: 624
+  - name: Object Count
+    leftIndex: 609
+    rightIndex: 483
+  - name: AudioClip Count
+    leftIndex: 610
+    rightIndex: 484
+  - name: AudioClip Memory
+    leftIndex: 611
+    rightIndex: 485
+  - name: AnimationClip Count
+    leftIndex: 612
+    rightIndex: 486
+  - name: Scene Object Count
+    leftIndex: 613
+    rightIndex: 498
+  - name: AnimationClip Memory
+    leftIndex: 614
+    rightIndex: 487
+  - name: Material Memory
+    leftIndex: 615
+    rightIndex: 489
+  - name: Mesh Count
+    leftIndex: 616
+    rightIndex: 479
+  - name: Mesh Memory
+    leftIndex: 617
+    rightIndex: 490
+  - name: Reads in Flight
+    leftIndex: 618
+    rightIndex: 581
+  - name: Texture Memory
+    leftIndex: 619
+    rightIndex: 492
+  - name: Gfx Reserved Memory
+    leftIndex: 620
+    rightIndex: 493
+  - name: GC Allocated In Frame
+    leftIndex: 621
+    rightIndex: 495
+  - name: GC Allocation In Frame Count
+    leftIndex: 622
+    rightIndex: 496
+  - name: Material Count
+    leftIndex: 623
+    rightIndex: 488
+  - name: Texture Count
+    leftIndex: 624
+    rightIndex: 503
+  - name: System Total Used Memory
+    leftIndex: 625
+    rightIndex: 585
+  - name: CPU Render Thread Frame Time
+    leftIndex: 626
+    rightIndex: 577
+  - name: File Seeks
+    leftIndex: 627
+    rightIndex: 513
+  - name: Files Opened
+    leftIndex: 628
+    rightIndex: 514
+  - name: Files Closed
+    leftIndex: 629
+    rightIndex: 515
+  - name: File Bytes Written
+    leftIndex: 630
+    rightIndex: 516
+  - name: File Bytes Read
+    leftIndex: 631
+    rightIndex: 517
+  - name: File Reads Started
+    leftIndex: 632
+    rightIndex: 519
+  - name: File Reads Finished
+    leftIndex: 633
+    rightIndex: 531
+  - name: Other Reads
+    leftIndex: 634
+    rightIndex: 520
+  - name: Texture Reads
+    leftIndex: 635
+    rightIndex: 505
+  - name: Virtual Texture Reads
+    leftIndex: 636
+    rightIndex: 522
+  - name: Global Illumination Support
+    leftIndex: 637
+    rightIndex: 512
+  - name: Mesh Reads
+    leftIndex: 638
+    rightIndex: 523
+  - name: Scripting Reads
+    leftIndex: 639
+    rightIndex: 524
+  - name: Entities Reads
+    leftIndex: 640
+    rightIndex: 525
+  - name: Required Tiles
+    leftIndex: 641
+    rightIndex: 526
+  - name: Atlases
+    leftIndex: 642
+    rightIndex: 527
+  - name: GPU Frame Time
+    leftIndex: 643
+    rightIndex: 578
+  - name: Total CPU Cache Size
+    leftIndex: 644
+    rightIndex: 528
+  - name: Total GPU Cache Size
+    leftIndex: 645
+    rightIndex: 529
+  - name: Missing Disk Data
+    leftIndex: 646
+    rightIndex: 533
+  - name: Read From Disk
+    leftIndex: 647
+    rightIndex: 506
+  - name: Max Cache Mip Bias
+    leftIndex: 648
+    rightIndex: 518
+  - name: Audio Reads
+    leftIndex: 649
+    rightIndex: 596
+  - name: Max Cache Demand
+    leftIndex: 650
+    rightIndex: 504
+  - name: KickJobs
+    leftIndex: 651
+    rightIndex: 507
+  - name: ScheduleAllocJob
+    leftIndex: 652
+    rightIndex: -1
+  - name: Active Kinematic Bodies
+    leftIndex: 653
+    rightIndex: 606
+  - name: Static Colliders
+    leftIndex: 654
+    rightIndex: 603
+  - name: Dynamic Bodies
+    leftIndex: 655
+    rightIndex: 584
+  - name: Articulation Bodies
+    leftIndex: 656
+    rightIndex: 604
+  - name: Active Constraints
+    leftIndex: 657
+    rightIndex: 611
+  - name: Overlaps
+    leftIndex: 658
+    rightIndex: 598
+  - name: Trigger Overlaps
+    leftIndex: 659
+    rightIndex: 599
+  - name: Discreet Overlaps
+    leftIndex: 660
+    rightIndex: 600
+  - name: Continuous Overlaps
+    leftIndex: 661
+    rightIndex: 601
+  - name: Modified Overlaps
+    leftIndex: 662
+    rightIndex: 602
+  - name: WaitForCompleted
+    leftIndex: 663
+    rightIndex: 511
+  - name: Colliders Synced
+    leftIndex: 664
+    rightIndex: 605
+  - name: Physics Queries
+    leftIndex: 665
+    rightIndex: 607
+  - name: Broadphase Adds/Removes
+    leftIndex: 666
+    rightIndex: 608
+  - name: Broadphase Adds
+    leftIndex: 667
+    rightIndex: 609
+  - name: Broadphase Removes
+    leftIndex: 668
+    rightIndex: 597
+  - name: Narrowphase Touches
+    leftIndex: 669
+    rightIndex: 595
+  - name: Narrowphase New Touches
+    leftIndex: 670
+    rightIndex: 583
+  - name: Narrowphase Lost Touches
+    leftIndex: 671
+    rightIndex: 574
+  - name: ScheduleJob
+    leftIndex: 672
+    rightIndex: 510
+  - name: BeginJob
+    leftIndex: 673
+    rightIndex: 509
+  - name: EndJob
+    leftIndex: 674
+    rightIndex: 508
+  - name: Rigidbodies Synced
+    leftIndex: 675
+    rightIndex: 610
+  - name: Missing Streaming Tiles
+    leftIndex: 676
+    rightIndex: 500
+  - name: Active Dynamic Bodies
+    leftIndex: 677
+    rightIndex: 573
+  - name: Total Contacts
+    leftIndex: 678
+    rightIndex: 562
+  - name: Dynamic Shapes
+    leftIndex: 679
+    rightIndex: 558
+  - name: Kinematic Shapes
+    leftIndex: 680
+    rightIndex: 559
+  - name: Static Shapes
+    leftIndex: 681
+    rightIndex: 560
+  - name: Transform Parent Sync Bodies
+    leftIndex: 682
+    rightIndex: 544
+  - name: Added Contacts
+    leftIndex: 683
+    rightIndex: 570
+  - name: Removed Contacts
+    leftIndex: 684
+    rightIndex: 563
+  - name: Broadphase Updates
+    leftIndex: 685
+    rightIndex: 564
+  - name: Total Bodies
+    leftIndex: 686
+    rightIndex: 481
+  - name: Solver Simulation Count
+    leftIndex: 687
+    rightIndex: 547
+  - name: Solver World Count
+    leftIndex: 688
+    rightIndex: 546
+  - name: Broadphase Pairs
+    leftIndex: 689
+    rightIndex: 565
+  - name: Total Callbacks
+    leftIndex: 690
+    rightIndex: 566
+  - name: Collision Enter
+    leftIndex: 691
+    rightIndex: 567
+  - name: Solver Discrete Islands
+    leftIndex: 692
+    rightIndex: 548
+  - name: Collision Stay
+    leftIndex: 693
+    rightIndex: 568
+  - name: Trigger Enter
+    leftIndex: 694
+    rightIndex: 572
+  - name: Trigger Stay
+    leftIndex: 695
+    rightIndex: 552
+  - name: Trigger Exit
+    leftIndex: 696
+    rightIndex: 551
+  - name: Total Queries
+    leftIndex: 697
+    rightIndex: 550
+  - name: Raycast Queries
+    leftIndex: 698
+    rightIndex: 535
+  - name: Shapecast Queries
+    leftIndex: 699
+    rightIndex: 536
+  - name: Overlap Queries
+    leftIndex: 700
+    rightIndex: 537
+  - name: IsTouching Queries
+    leftIndex: 701
+    rightIndex: 538
+  - name: GetContacts Queries
+    leftIndex: 702
+    rightIndex: 539
+  - name: Particle Queries
+    leftIndex: 703
+    rightIndex: 540
+  - name: Total Transform Sync Calls
+    leftIndex: 704
+    rightIndex: 541
+  - name: Transform Sync Bodies
+    leftIndex: 705
+    rightIndex: 542
+  - name: Transform Sync Colliders
+    leftIndex: 706
+    rightIndex: 543
+  - name: Collision Exit
+    leftIndex: 707
+    rightIndex: 569
+  - name: Solver Continuous Islands
+    leftIndex: 708
+    rightIndex: 549
+  - name: Transform Parent Sync Colliders
+    leftIndex: 709
+    rightIndex: 545
+  - name: Physics Used Memory (2D)
+    leftIndex: 710
+    rightIndex: 571
+  - name: Continuous Bodies
+    leftIndex: 711
+    rightIndex: 554
+  - name: CPU Total Frame Time
+    leftIndex: 712
+    rightIndex: 575
+  - name: Asleep Shapes
+    leftIndex: 713
+    rightIndex: 557
+  - name: Total Joints
+    leftIndex: 714
+    rightIndex: 561
+  - name: Discrete Bodies
+    leftIndex: 715
+    rightIndex: 491
+  - name: Awake Shapes
+    leftIndex: 716
+    rightIndex: 556
+  - name: CPU Main Thread Frame Time
+    leftIndex: 717
+    rightIndex: 576
+  - name: Kinematic Bodies
+    leftIndex: 718
+    rightIndex: 580
+  - name: Asleep Bodies
+    leftIndex: 719
+    rightIndex: 482
+  - name: Awake Bodies
+    leftIndex: 720
+    rightIndex: 480
+  - name: Static Bodies
+    leftIndex: 721
+    rightIndex: 530
+  - name: Total Shapes
+    leftIndex: 722
+    rightIndex: 555
+  - name: 'Assembly-CSharp.dll!::Projectile.Start() [Invoke]'
+    leftIndex: 723
+    rightIndex: 658
+  - name: VisualEffect.Simulate
+    leftIndex: 724
+    rightIndex: 657
+  - name: Animator.SetupControllerDataSet
+    leftIndex: 725
+    rightIndex: 462
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Events::UnityEventBase.UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
+      [Invoke]'
+    leftIndex: 726
+    rightIndex: 468
+  - name: 'Assembly-CSharp.dll!::Enemy..ctor() [Invoke]'
+    leftIndex: 727
+    rightIndex: 469
+  - name: SortingGroup.UpdateRenderer
+    leftIndex: 728
+    rightIndex: 625
+  - name: PrepareSceneNodesCombineJob
+    leftIndex: 729
+    rightIndex: 455
+  - name: PhysX.ScScene.postBroadPhase
+    leftIndex: 730
+    rightIndex: -1
+  - name: Physics.StorePhysXContacts
+    leftIndex: 731
+    rightIndex: 638
+  - name: Physics.ContactEvent
+    leftIndex: 732
+    rightIndex: 635
+  - name: LineRenderer.ScheduleGeometryJobs
+    leftIndex: 733
+    rightIndex: 183
+  - name: CanvasUpdate.Layout
+    leftIndex: 734
+    rightIndex: 614
+  - name: GfxResource.Register
+    leftIndex: 735
+    rightIndex: 639
+  - name: Instantiate.Copy
+    leftIndex: 736
+    rightIndex: 641
+  - name: Instantiate.Awake
+    leftIndex: 737
+    rightIndex: 656
+  - name: Instantiate
+    leftIndex: 738
+    rightIndex: 636
+  - name: TextureStreamingManager.RemoveTexture
+    leftIndex: 739
+    rightIndex: 663
+  - name: TextRendering.Cleanup
+    leftIndex: 740
+    rightIndex: 83
+  - name: JobAlloc.Grow
+    leftIndex: 741
+    rightIndex: -1
+  - name: 'Assembly-CSharp.dll!::Lightning.TweenLineRenderer() [Coroutine: System.Collections.IEnumerator.get_Current]
+      [Invoke]'
+    leftIndex: 742
+    rightIndex: 627
+  - name: PhysX.OnOverlapCreatedTask
+    leftIndex: 743
+    rightIndex: -1
+  - name: SoundHandle.Instance.CreateChannel
+    leftIndex: 744
+    rightIndex: 618
+  - name: 'Assembly-CSharp.dll!::LightningPropagator..ctor() [Invoke]'
+    leftIndex: 745
+    rightIndex: 615
+  - name: 'Assembly-CSharp.dll!::RandomAudioClip.Start() [Invoke]'
+    leftIndex: 746
+    rightIndex: 619
+  - name: 'Assembly-CSharp.dll!::Projectile..ctor() [Invoke]'
+    leftIndex: 747
+    rightIndex: 661
+  - name: GetComponentNullErrorWrapper
+    leftIndex: 748
+    rightIndex: 655
+  - name: 'UnityEngine.CoreModule.dll!UnityEngine.Events::UnityEvent..ctor() [Invoke]'
+    leftIndex: 749
+    rightIndex: 467
+  - name: CanvasUpdate.PostLayout
+    leftIndex: 750
+    rightIndex: 445
+  - name: 'Assembly-CSharp.dll!::Enemy.OnDisable() [Invoke]'
+    leftIndex: 751
+    rightIndex: 470
+  - name: Loading.ReadObject
+    leftIndex: 752
+    rightIndex: 473
+  - name: PhysX.PxsContext.contactManagerDiscreteUpdate
+    leftIndex: 753
+    rightIndex: -1
+  - name: Mono.JIT
+    leftIndex: 754
+    rightIndex: -1
+  - name: 'Assembly-CSharp.dll!::SelfDestroyInSeconds..ctor() [Invoke]'
+    leftIndex: 755
+    rightIndex: 626
+  - name: 'Assembly-CSharp.dll!::RandomAudioClip..ctor() [Invoke]'
+    leftIndex: 756
+    rightIndex: 616
+  - name: 'mscorlib.dll!System.Collections.Generic::List`1..ctor() [Invoke]'
+    leftIndex: 757
+    rightIndex: 617
+  - name: PhysX.OverlapFilterTask
+    leftIndex: 758
+    rightIndex: -1
+  - name: CullSceneDynamicObjectsCombineJob
+    leftIndex: 759
+    rightIndex: 456
+  - name: CullObjectsWithoutUmbra
+    leftIndex: 760
+    rightIndex: 453
+  - name: CullSceneDynamicObjects
+    leftIndex: 761
+    rightIndex: 457
+  - name: GameObject.Activate
+    leftIndex: 762
+    rightIndex: 478
+  - name: Animator.Initialize
+    leftIndex: 763
+    rightIndex: 458
+  - name: 'Assembly-CSharp.dll!::Enemy.Start() [Invoke]'
+    leftIndex: 764
+    rightIndex: 460
+  - name: Audibility computation clear
+    leftIndex: -1
+    rightIndex: 163
+  - name: Audibility computation fwd
+    leftIndex: -1
+    rightIndex: 246
+  - name: PostLateUpdate.UpdateLightProbeProxyVolumes
+    leftIndex: -1
+    rightIndex: 303
+  - name: LightProbeProxyVolumeManager.Update
+    leftIndex: -1
+    rightIndex: 330
+  - name: GfxResource.Unregister
+    leftIndex: -1
+    rightIndex: 662
+  m_SelectedPairing: 0
+  m_ProfileTreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+  m_ProfileMulticolumnHeaderState:
+    m_Columns: []
+    m_VisibleColumns: 
+    m_SortedColumns: 
+  m_ComparisonTreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 00000000
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+  m_ComparisonMulticolumnHeaderState:
+    m_Columns:
+    - width: 300
+      sortedAscending: 1
+      headerContent:
+        m_Text: Marker Name
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Marker Name
+
+
+          Frame marker time is total of all instances
+          in frame'
+        m_TextWithWhitespace: "Marker Name\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 100
+      maxWidth: 1000000
+      autoResize: 0
+      allowToggleVisibility: 0
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: State
+        m_Image: {fileID: 0}
+        m_Tooltip: Status of marker entry (if modified or removed from frame time
+          due to 'Remove' filter)
+        m_TextWithWhitespace: "State\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Left Median
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Left median time
+
+
+          Central marker time over all selected
+          frames'
+        m_TextWithWhitespace: "Left Median\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: <
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference if left data set is a larger value
+        m_TextWithWhitespace: "<\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: '>'
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference if right data set is a larger value
+        m_TextWithWhitespace: ">\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Right Median
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Right median time
+
+
+          Central marker time over all selected
+          frames'
+        m_TextWithWhitespace: "Right Median\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Diff
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference between left and right times
+        m_TextWithWhitespace: "Diff\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Diff Percent
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference between left and right times as percentage of left
+          marker time
+        m_TextWithWhitespace: "Diff Percent\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Abs Diff
+        m_Image: {fileID: 0}
+        m_Tooltip: Absolute difference between left and right times
+        m_TextWithWhitespace: "Abs Diff\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Left
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Left marker count over all selected frames
+
+
+          Multiple
+          can occur per frame'
+        m_TextWithWhitespace: "Count Left\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: < Count
+        m_Image: {fileID: 0}
+        m_Tooltip: Count Difference if left data set count is a larger value
+        m_TextWithWhitespace: "< Count\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: '> Count'
+        m_Image: {fileID: 0}
+        m_Tooltip: Count Difference if right data set count is a larger value
+        m_TextWithWhitespace: "> Count\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Right
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Right marker count over all selected frames
+
+
+          Multiple
+          can occur per frame'
+        m_TextWithWhitespace: "Count Right\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 102.22223
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Delta
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference in marker count
+        m_TextWithWhitespace: "Count Delta\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Delta Percent
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference in marker count as percentage of left marker count
+        m_TextWithWhitespace: "Count Delta Percent\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Abs Count
+        m_Image: {fileID: 0}
+        m_Tooltip: Absolute difference in marker count
+        m_TextWithWhitespace: "Abs Count\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Left Frame
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Average number of markers per frame in left data set
+
+
+          total
+          count / number of non zero frames'
+        m_TextWithWhitespace: "Count Left Frame\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: < Frame Count
+        m_Image: {fileID: 0}
+        m_Tooltip: Per frame Count Difference if left data set count is a larger
+          value
+        m_TextWithWhitespace: "< Frame Count\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: '> Frame Count'
+        m_Image: {fileID: 0}
+        m_Tooltip: Per frame Count Difference if right data set count is a larger
+          value
+        m_TextWithWhitespace: "> Frame Count\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Right Frame
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Average number of markers per frame in right data set
+
+
+          total
+          count / number of non zero frames'
+        m_TextWithWhitespace: "Count Right Frame\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Delta Frame
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference in per frame marker count
+        m_TextWithWhitespace: "Count Delta Frame\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Count Delta Percent Frame
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference in per frame marker count as percentage of left count
+        m_TextWithWhitespace: "Count Delta Percent Frame\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Abs Frame Count
+        m_Image: {fileID: 0}
+        m_Tooltip: Absolute difference in per frame marker count
+        m_TextWithWhitespace: "Abs Frame Count\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Total Left
+        m_Image: {fileID: 0}
+        m_Tooltip: Left marker total time over all selected frames
+        m_TextWithWhitespace: "Total Left\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: < Total
+        m_Image: {fileID: 0}
+        m_Tooltip: Total Difference if left data set total is a larger value
+        m_TextWithWhitespace: "< Total\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: '> Total'
+        m_Image: {fileID: 0}
+        m_Tooltip: Total Difference if right data set total is a larger value
+        m_TextWithWhitespace: "> Total\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Total Right
+        m_Image: {fileID: 0}
+        m_Tooltip: Right marker total time over all selected frames
+        m_TextWithWhitespace: "Total Right\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Total Delta
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference in total time over all selected frames
+        m_TextWithWhitespace: "Total Delta\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Total Delta Percent
+        m_Image: {fileID: 0}
+        m_Tooltip: Difference in total time over all selected frames as percentage
+          of left marker total time
+        m_TextWithWhitespace: "Total Delta Percent\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Abs Total
+        m_Image: {fileID: 0}
+        m_Tooltip: Absolute difference in total time over all selected frames
+        m_TextWithWhitespace: "Abs Total\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Depth Left
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Marker depth in marker hierarchy
+
+
+          May appear at multiple
+          levels'
+        m_TextWithWhitespace: "Depth Left\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Depth Right
+        m_Image: {fileID: 0}
+        m_Tooltip: 'Marker depth in marker hierarchy
+
+
+          May appear at multiple
+          levels'
+        m_TextWithWhitespace: "Depth Right\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Depth Diff
+        m_Image: {fileID: 0}
+        m_Tooltip: Absolute difference in min marker depth total over all selected
+          frames
+        m_TextWithWhitespace: "Depth Diff\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Threads Left
+        m_Image: {fileID: 0}
+        m_Tooltip: Threads the marker occurs on in left data set (with filtering
+          applied)
+        m_TextWithWhitespace: "Threads Left\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    - width: 50
+      sortedAscending: 0
+      headerContent:
+        m_Text: Threads Right
+        m_Image: {fileID: 0}
+        m_Tooltip: Threads the marker occurs on in right data set (with filtering
+          applied)
+        m_TextWithWhitespace: "Threads Right\u200B"
+      contextMenuText: 
+      headerTextAlignment: 0
+      sortingArrowAlignment: 0
+      minWidth: 30
+      maxWidth: 1000000
+      autoResize: 1
+      allowToggleVisibility: 1
+      canSort: 1
+      userData: 0
+    m_VisibleColumns: 00000000020000000300000004000000050000000600000008000000090000000c0000000d000000
+    m_SortedColumns: 08000000
+  m_ThreadRange: 1
+  m_TopNBars: 10
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -430,10 +3470,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 308
-    y: 86.4
-    width: 810.00006
-    height: 434
+    x: 257.8
+    y: 24
+    width: 695.60004
+    height: 255.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -451,7 +3491,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1012.50006, y: 516.25}
+  m_TargetSize: {x: 869.50006, y: 293.25}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -459,17 +3499,17 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 0
+  m_Stats: 1
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -405.00003
-    m_HBaseRangeMax: 405.00003
-    m_VBaseRangeMin: -206.5
-    m_VBaseRangeMax: 206.5
+    m_HBaseRangeMin: -347.80002
+    m_HBaseRangeMax: 347.80002
+    m_VBaseRangeMin: -117.3
+    m_VBaseRangeMax: 117.3
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -487,30 +3527,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 810.00006
-      height: 413
+      width: 695.60004
+      height: 234.6
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 405.00003, y: 206.5}
+    m_Translation: {x: 347.80002, y: 117.3}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -405.00003
-      y: -206.5
-      width: 810.00006
-      height: 413
+      x: -347.80002
+      y: -117.3
+      width: 695.60004
+      height: 234.6
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1012.50006, y: 542.5}
+  m_LastWindowPixelSize: {x: 869.50006, y: 319.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -532,10 +3572,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 24
-    width: 219.8
-    height: 434
+    x: 8
+    y: 87.200005
+    width: 255.79999
+    height: 367.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -550,9 +3590,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 0cd20000
       m_LastClickedID: 0
-      m_ExpandedIDs: a6eeffff
+      m_ExpandedIDs: 1a3bffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -569,7 +3609,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -577,7 +3617,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -599,10 +3639,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 221.8
-    y: 24
-    width: 599.60004
-    height: 434
+    x: 264.80002
+    y: 87.200005
+    width: 695.60004
+    height: 367.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1218,7 +4258,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: 0.17389375, y: -0.088498056, z: 0.015692843, w: 0.9806544}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 17}
+    m_SceneView: {fileID: 18}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -1231,7 +4271,83 @@ MonoBehaviour:
     name: Contributors / Receivers
     section: Lighting
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0276e3a65ecfd43904ccfe7027d92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Sparks
+    m_Image: {fileID: 2800000, guid: dbf0a247eda3c834b86a04d35558ba9f, type: 3}
+    m_Tooltip: 
+    m_TextWithWhitespace: "UnityEditor.VFX.UI.VFXViewWindow\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 193.6
+    y: 72
+    width: 742.4
+    height: 447
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_DisplayedResource: {fileID: 8926484042661614527, guid: 52f1139c8657782418b6f5168a5adbf6,
+    type: 2}
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0276e3a65ecfd43904ccfe7027d92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Bezier Ligthing
+    m_Image: {fileID: 2800000, guid: dbf0a247eda3c834b86a04d35558ba9f, type: 3}
+    m_Tooltip: 
+    m_TextWithWhitespace: "UnityEditor.VFX.UI.VFXViewWindow\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 193.6
+    y: 72
+    width: 742.4
+    height: 407.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_DisplayedResource: {fileID: 8926484042661614527, guid: 91822a30bd5f2114fa53b3d7e163d7bd,
+    type: 2}
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1253,10 +4369,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 484
-    width: 821.4
-    height: 216.40002
+    x: 8
+    y: 480.80002
+    width: 953.4
+    height: 281.19998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1279,7 +4395,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sound Assets
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1289,17 +4405,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sound Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\mathi\Desktop\ITU DOD\HPGP-OptimisationProject\The
     Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159.59998}
-    m_SelectedIDs: 86ca0000
-    m_LastClickedID: 51846
-    m_ExpandedIDs: 0000000096bc0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 38bd0000
+    m_LastClickedID: 48440
+    m_ExpandedIDs: 00000000c2bc000022d1000046d1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1316,7 +4432,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1328,7 +4444,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000096bc0000
+    m_ExpandedIDs: 00000000c2bc000022d1000046d1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1356,7 +4472,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006c4401007260010096670100e06c01004a6e0100b46f010000000000c6820000748d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1374,7 +4490,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1386,7 +4502,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 278.99997
---- !u!114 &19
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1423,7 +4539,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &20
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1431,11 +4547,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 275, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
@@ -1445,10 +4561,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1123.2001
-    y: 72
-    width: 411.80005
-    height: 711
+    x: 962.4
+    y: 87.200005
+    width: 564.6
+    height: 674.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1460,17 +4576,16 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization:
-  - {fileID: 11400000, guid: e1260c1148f6143b28bae5ace5e9c5d1, type: 2}
+  m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 336
-    m_ControlHash: -371814159
+    m_CachedPref: 211
+    m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 1400
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 1
+    m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
